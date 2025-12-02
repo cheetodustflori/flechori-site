@@ -1,4 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
 @import "tailwindcss";
+
+
+@font-face {
+  font-family: 'Larken';
+  src: url('/fonts/LarkenDEMO-Black.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 :root {
   --background: #ffffff;
