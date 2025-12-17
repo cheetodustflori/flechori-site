@@ -1,37 +1,35 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Almarai } from "next/font/google";
-import larken from "next/font/local";
+import { Almarai } from "next/font/google";
+import localFont from "next/font/local";
+import NavBar from "./components/navbar";
 import "./globals.css";
+import { ViewTransition } from "react";
 
-const flechori = larken({
+
+export const larken = localFont({
   src: [
-    {
-      path: "../public/fonts/Larken-Black.otf",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/Larken-Bold.otf",
-      weight: "700",
-      style: "normal",
-    },
+    { path: "../public/fonts/Larken-Regular.otf", weight: "400", style: "normal" },
+    { path: "../public/fonts/Larken-Bold.otf", weight: "700", style: "normal" },
+    { path: "../public/fonts/Larken-Black.otf", weight: "900", style: "normal" },
+    { path: "../public/fonts/Larken-Italic.otf", weight: "400", style: "italic" },
   ],
-  variable: "--font-flechori",
+  variable: "--font-larken",
+  display: "swap",
 });
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+export const pecita = localFont({
+  src: [
+    { path: "../public/fonts/Pecita.otf", weight: "400", style: "normal" }
+  ],
+  variable: "--font-pecita",
+  display: "swap",
+});
+
+const almarai = Almarai({
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const almarai = Geist({
+  weight: ["400", "700"],
   variable: "--font-almarai",
-  subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -47,9 +45,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${almarai.variable}antialiased`}
+        className={`${almarai.variable} ${larken.variable} ${pecita.variable} antialiased`}
       >
+        <ViewTransition>
+        <div className=" flex flex-col gap-5 m-auto h-screen w-2xl p-[15px]">
+
+        <NavBar/>
         {children}
+        </div>
+        </ViewTransition>
       </body>
     </html>
   );
