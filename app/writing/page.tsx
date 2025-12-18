@@ -11,19 +11,25 @@ export default function BlogPage() {
 
       <ul className="space-y-6">
         {posts.map((post) => (
-          
           <li key={post.slug}>
-            <img src="writing/notecard.svg"/>
             <Link
               href={`/writing/${post.slug}`}
-              className="text-xl font-semibold hover:underline"
+              className="text-xl"
             >
-              {post.title}
+              <div className="hover:relative hover:top-1 font-pecita left-[-70px] relative flex align-middle bg-[url('/writing/notecard.svg')] bg-no-repeat bg-contain w-full h-[200px]">
+                <div className="flex flex-col max-w-[400px]">
+                  <div className="relative left-[120px] top-[5px]">
+                  {new Date(post.date).toLocaleDateString()}: {post.title}
+                  </div>
+                <div>
+                  <p className="relative left-[120px] top-2.5 overflow-clip whitespace-normal text-ellipsis">{post.summary}</p>
+                </div>
+                </div>
+                
+                
+              </div>
             </Link>
-            <p className="text-sm text-gray-500">
-              {new Date(post.date).toLocaleDateString()}
-            </p>
-            <p className="mt-1 text-gray-700">{post.summary}</p>
+            
           </li>
         ))}
       </ul>
