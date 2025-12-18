@@ -2,6 +2,8 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
+import { AnimatePresence, motion } from "framer-motion";
+
 
 // NEW: Photo type on the client (matches the API)
 type Photo = {
@@ -139,14 +141,23 @@ export default function ImageGallery({ perPage = 12 }: { perPage?: number }) {
       </div>
 
       {/* NEW: modal */}
+      <AnimatePresence>
       {selectedPhoto && (
-        <div
+        <motion.div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4"
           onClick={() => setSelectedPhoto(null)}
+          initial={{ opacity: 0 }} // NEW
+          animate={{ opacity: 1 }} // NEW
+          exit={{ opacity: 0 }} // NEW
+          transition={{ duration: 0.18 }}
         >
-          <div
+          <motion.div
             className="w-full max-w-3xl overflow-hidden rounded-xl bg-white shadow-lg"
             onClick={(e) => e.stopPropagation()}
+            initial={{ opacity: 0, y: 12, scale: 0.98 }} // NEW
+            animate={{ opacity: 1, y: 0, scale: 1 }} // NEW
+            exit={{ opacity: 0, y: 12, scale: 0.98 }} // NEW
+            transition={{ type: "spring", stiffness: 380, damping: 28 }}
           >
             <div className="grid grid-cols-1 sm:grid-cols-2">
               <div className="relative aspect-square bg-black">
@@ -179,9 +190,10 @@ export default function ImageGallery({ perPage = 12 }: { perPage?: number }) {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       )}
+      </AnimatePresence>
     </div>
   );
 }
