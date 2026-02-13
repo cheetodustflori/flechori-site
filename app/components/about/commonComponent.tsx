@@ -7,6 +7,7 @@ type Props = {
 // in progress , will finish later
 
 export default function CommonComponent({experience}:Props) {
+    const color = experience.color === "blue" ? "#809FDF" : "yellow";
     return (
         <div className="flex flex-col gap-4 mt-[15px] font-larken">
             <div id="exp-header" className="flex flex-row  items-center gap-5 justify-between">

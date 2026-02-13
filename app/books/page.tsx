@@ -1,4 +1,5 @@
 import Header from "../components/header";
+import "./books.css";
 
 export default function Books() {
   return (
@@ -15,21 +16,21 @@ export default function Books() {
         <div className="grid gap-4">
           <div>
             <img
-              className="h-auto max-w-full rounded-base"
+              className="grid-img h-auto max-w-full rounded-base"
               src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg"
               alt=""
             />
           </div>
           <div>
             <img
-              className="h-auto max-w-full rounded-base"
+              className="grid-img h-auto max-w-full rounded-base"
               src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg"
               alt=""
             />
           </div>
           <div>
             <img
-              className="h-auto max-w-full rounded-base"
+              className="grid-img h-auto max-w-full rounded-base"
               src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg"
               alt=""
             />
@@ -38,21 +39,21 @@ export default function Books() {
         <div className="grid gap-4">
           <div>
             <img
-              className="h-auto max-w-full rounded-base"
+              className="grid-img h-auto max-w-full rounded-base"
               src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
               alt=""
             />
           </div>
           <div>
             <img
-              className="h-auto max-w-full rounded-base"
+              className="grid-img h-auto max-w-full rounded-base"
               src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
               alt=""
             />
           </div>
           <div>
             <img
-              className="h-auto max-w-full rounded-base"
+              className="grid-img h-auto max-w-full rounded-base"
               src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg"
               alt=""
             />
@@ -61,21 +62,21 @@ export default function Books() {
         <div className="grid gap-4">
           <div>
             <img
-              className="h-auto max-w-full rounded-base"
+              className="grid-img h-auto max-w-full rounded-base"
               src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
               alt=""
             />
           </div>
           <div>
             <img
-              className="h-auto max-w-full rounded-base"
+              className="grid-img h-auto max-w-full rounded-base"
               src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
               alt=""
             />
           </div>
           <div>
             <img
-              className="h-auto max-w-full rounded-base"
+              className="grid-img h-auto max-w-full rounded-base"
               src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
               alt=""
             />
@@ -84,21 +85,21 @@ export default function Books() {
         <div className="grid gap-4">
           <div>
             <img
-              className="h-auto max-w-full rounded-base"
+              className="grid-img h-auto max-w-full rounded-base"
               src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg"
               alt=""
             />
           </div>
           <div>
             <img
-              className="h-auto max-w-full rounded-base"
+              className="grid-img h-auto max-w-full rounded-base"
               src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg"
               alt=""
             />
           </div>
           <div>
             <img
-              className="h-auto max-w-full rounded-base"
+              className="grid-img h-auto max-w-full rounded-base"
               src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg"
               alt=""
             />
@@ -110,3 +111,4 @@ export default function Books() {
     </div>
   );
 }
+

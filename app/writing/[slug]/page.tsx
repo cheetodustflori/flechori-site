@@ -9,6 +9,12 @@ export function generateStaticParams() {
   }));
 }
 
+const backgroundMap: Record<string, string> = {
+    poetry: "bg-[url('/writing/parchment.svg')]",
+    fiction: "bg-[url('/writing/notepage.svg')]",
+    technical: "bg-slate-100 border-l-4 border-blue-500", 
+  };
+
 export default async function BlogPostPage({
   params,
 }: {

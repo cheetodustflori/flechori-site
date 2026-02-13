@@ -8,49 +8,65 @@ export interface Experience {
     date: string,
     photoUrl: string,
     tools: string,
-    description: string
+    description: string,
+    color: string | "blue"
 }
 
 const experiences: Experience[] = [
     {
         id: 1,
-        company: "imanage",
+        company: "mcdonald's",
         companyLink: "#",
-        position: "front end swe developer",
-        date: "may 25 - aug 25",
+        position: "software developer intern",
+        date: "jun 26 - aug 26",
         photoUrl: "#",
         tools: "a,b,c",
-        description: "a,b,c"
+        description: "upcoming!!",
+        color: "blue"
     },
     {
         id: 2,
         company: "imanage",
         companyLink: "#",
-        position: "front end swe developer",
-        date: "may 25 - aug 25",
+        position: "front end swe developer intern",
+        date: "jun 25 - aug 25",
         photoUrl: "#",
         tools: "a,b,c",
-        description: "a,b,c"
+        description: "a,b,c",
+        color: "blue"
     },
     {
         id: 3,
-        company: "imanage",
+        company: "machine organization course: cs 261",
         companyLink: "#",
-        position: "front end swe developer",
-        date: "may 25 - aug 25",
+        position: "teaching assistant",
+        date: "jan 25 - present",
         photoUrl: "#",
         tools: "a,b,c",
-        description: "a,b,c"
+        description: "a,b,c",
+        color: "blue"
     },
     {
         id: 4,
-        company: "imanage",
+        company: "uic lit lab",
         companyLink: "#",
-        position: "front end swe developer",
-        date: "may 25 - aug 25",
+        position: "research assistant + web dev",
+        date: "may 24 - aug 25",
         photoUrl: "#",
         tools: "a,b,c",
-        description: "a,b,c"
+        description: "a,b,c",
+        color: "blue"
+    },
+    {
+        id: 5,
+        company: "uic innovation center",
+        companyLink: "#",
+        position: "front end swe developer",
+        date: "may 24",
+        photoUrl: "#",
+        tools: "a,b,c",
+        description: "a,b,c",
+        color: "blue"
     },
 ];
 

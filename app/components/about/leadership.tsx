@@ -4,43 +4,47 @@ import type { Experience } from "./experience";
 const leadership: Experience[] = [
     {
         id: 1,
-        company: "imanage",
+        company: "women in computer science",
         companyLink: "#",
-        position: "front end swe developer",
+        position: "dev project: lead",
         date: "may 25 - aug 25",
         photoUrl: "#",
         tools: "a,b,c",
-        description: "a,b,c"
+        description: "a,b,c",
+        color: "yellow"
     },
     {
         id: 2,
-        company: "imanage",
+        company: "sparkhacks",
         companyLink: "#",
-        position: "front end swe developer",
+        position: "web dev team: lead",
         date: "may 25 - aug 25",
         photoUrl: "#",
         tools: "a,b,c",
-        description: "a,b,c"
+        description: "a,b,c",
+        color: "yellow"
     },
     {
         id: 3,
-        company: "imanage",
+        company: "association of computing for machinery",
         companyLink: "#",
-        position: "front end swe developer",
+        position: "sig ios lead + treasurer",
         date: "may 25 - aug 25",
         photoUrl: "#",
         tools: "a,b,c",
-        description: "a,b,c"
+        description: "a,b,c",
+        color: "yellow"
     },
     {
         id: 4,
-        company: "imanage",
+        company: "leaf",
         companyLink: "#",
-        position: "front end swe developer",
+        position: "ios developer",
         date: "may 25 - aug 25",
         photoUrl: "#",
         tools: "a,b,c",
-        description: "a,b,c"
+        description: "a,b,c",
+        color: "yellow"
     },
 ];
 
