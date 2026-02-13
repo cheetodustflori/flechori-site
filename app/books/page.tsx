@@ -2,9 +2,10 @@
 import { useState } from "react";
 import Header from "../components/header";
 import {books} from "./books";
+import type { Book } from "./books";
 
 export default function Books() {
-  const [selectedBook, setSelectedBook] = useState(null);
+  const [selectedBook, setSelectedBook] = useState<Book | null>(null);
 
   return (
     <div className="m-[15px]">
