@@ -1,10 +1,14 @@
+"use client";
+import { useState } from "react";
 import Header from "../components/header";
-import "./books.css";
+import {books} from "./books";
 
 export default function Books() {
+  const [selectedBook, setSelectedBook] = useState(null);
+
   return (
-    <div>
-      <div className="flex flex-col gap-10 items-center m-[15px]">
+    <div className="m-[15px]">
+      <div className="flex flex-col gap-10 items-center mb-10">
         <Header>
           <h1 className="text-2xl font-bold italic font-larken">
             books and stories that...
@@ -12,103 +16,46 @@ export default function Books() {
         </Header>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <div className="grid gap-4">
-          <div>
+      <div className="columns-2 md:columns-4 gap-4 space-y-4 pb-[50px]">
+        {books.map((book) => (
+          <div 
+            key={book.id} 
+            className="relative group cursor-pointer break-inside-avoid"
+            onClick={() => setSelectedBook(book)}
+          >
+            {/* Book Cover */}
             <img
-              className="grid-img h-auto max-w-full rounded-base"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg"
-              alt=""
+              className="w-full rounded-lg transition-transform duration-300 group-hover:scale-[1.02]"
+              src={book.cover}
+              alt={book.title}
             />
+
+            {/* Hover Rating Overlay */}
+            <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
+              <p className="text-white font-larken text-xl font-bold">
+                Rating: {book.rating}
+              </p>
+            </div>
           </div>
-          <div>
-            <img
-              className="grid-img h-auto max-w-full rounded-base"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="grid-img h-auto max-w-full rounded-base"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="grid gap-4">
-          <div>
-            <img
-              className="grid-img h-auto max-w-full rounded-base"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="grid-img h-auto max-w-full rounded-base"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="grid-img h-auto max-w-full rounded-base"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="grid gap-4">
-          <div>
-            <img
-              className="grid-img h-auto max-w-full rounded-base"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="grid-img h-auto max-w-full rounded-base"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="grid-img h-auto max-w-full rounded-base"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="grid gap-4">
-          <div>
-            <img
-              className="grid-img h-auto max-w-full rounded-base"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="grid-img h-auto max-w-full rounded-base"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="grid-img h-auto max-w-full rounded-base"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg"
-              alt=""
-            />
-          </div>
-        </div>
+        ))}
       </div>
 
-      <div className="grid-cols-3 grid-rows-3"></div>
+      {/* Review Modal (Pop-up) */}
+      {selectedBook && (
+        <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4" onClick={() => setSelectedBook(null)}>
+          <div className="bg-white p-8 rounded-2xl max-w-md w-full font-larken shadow-2xl" onClick={(e) => e.stopPropagation()}>
+            <h2 className="text-3xl font-bold mb-2">{selectedBook.title}</h2>
+            <p className="text-lg font-bold mb-4 italic text-gray-600">My Rating: {selectedBook.rating}</p>
+            <p className="leading-relaxed text-gray-800">{selectedBook.review}</p>
+            <button 
+              className="mt-6 w-full py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors"
+              onClick={() => setSelectedBook(null)}
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
-

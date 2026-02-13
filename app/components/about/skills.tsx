@@ -8,7 +8,6 @@ export default function Skills() {
                     <li>javascript</li>
                     <li>python</li>
                     <li>c/c++</li>
-                    <li>assembly. ish</li>
                 </ul>
             </div>
             <div id="skills-right" className="grid grid-rows-2 ">

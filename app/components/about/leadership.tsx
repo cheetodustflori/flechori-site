@@ -8,9 +8,9 @@ const leadership: Experience[] = [
         companyLink: "#",
         position: "dev project: lead",
         date: "may 25 - aug 25",
-        photoUrl: "#",
+        photoUrl: ["#"],
         tools: "a,b,c",
-        description: "a,b,c",
+        description: "Lead team of 15 students in semester-long website development projects using React.js, Astro, and Node.js.",
         color: "yellow"
     },
     {
@@ -19,7 +19,7 @@ const leadership: Experience[] = [
         companyLink: "#",
         position: "web dev team: lead",
         date: "may 25 - aug 25",
-        photoUrl: "#",
+        photoUrl: ["#"],
         tools: "a,b,c",
         description: "a,b,c",
         color: "yellow"
@@ -30,7 +30,7 @@ const leadership: Experience[] = [
         companyLink: "#",
         position: "sig ios lead + treasurer",
         date: "may 25 - aug 25",
-        photoUrl: "#",
+        photoUrl: ["#"],
         tools: "a,b,c",
         description: "a,b,c",
         color: "yellow"
@@ -41,7 +41,7 @@ const leadership: Experience[] = [
         companyLink: "#",
         position: "ios developer",
         date: "may 25 - aug 25",
-        photoUrl: "#",
+        photoUrl: ["#"],
         tools: "a,b,c",
         description: "a,b,c",
         color: "yellow"

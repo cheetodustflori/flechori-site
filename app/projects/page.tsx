@@ -19,7 +19,7 @@ export default function Projects() {
     const totalPages = Math.ceil(projects.length / itemsPerPage);
 
     return (
-        <div className="flex flex-col gap-10 items-center m-[15px]">
+        <div className="flex flex-col gap-10 items-center m-[15px] pb-[50px]">
             <Header> 
                 <h1 className="text-2xl font-bold italic font-larken">projects</h1>
                 <h3>showing {currentProjects.length}/{projects.length}</h3>

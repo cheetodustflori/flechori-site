@@ -9,12 +9,6 @@ export function generateStaticParams() {
   }));
 }
 
-const backgroundMap: Record<string, string> = {
-    poetry: "bg-[url('/writing/parchment.svg')]",
-    fiction: "bg-[url('/writing/notepage.svg')]",
-    technical: "bg-slate-100 border-l-4 border-blue-500", 
-  };
-
 export default async function BlogPostPage({
   params,
 }: {
@@ -33,6 +27,8 @@ export default async function BlogPostPage({
     notFound();
   }
 
+  const bg = post.genre === 'poetry' ? "bg-white": "bg-[url('/writing/red-notecard.svg')]";
+
   const paragraphs = post!.content.split("\n\n");
 
   return (
@@ -48,7 +44,7 @@ export default async function BlogPostPage({
         </p>
       </div>
 
-      <article className="bg-[url('/writing/notepage.svg')] p-5 bg-repeat-y bg-cover bg-center font-larken space-y-4 leading-relaxed text-gray-800 border">
+      <article className={`${bg} p-5 bg-repeat-y bg-cover bg-center font-larken space-y-4 leading-relaxed text-gray-800 border`}>
         {paragraphs.map((para, idx) => (
           <p key={idx}>{para}</p>
         ))}

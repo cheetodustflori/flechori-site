@@ -1,4 +1,5 @@
 // import Polaroid from "../../public/polaroid.png"
+import SpotifyWidget from "./SpotifyWidget";
 
 export default function HomeRight() {
     return (
@@ -8,14 +9,8 @@ export default function HomeRight() {
             </div>
             <div id="currently-listen" className="flex flex-col gap-2 text-center">
                 <p>🎧 currently listening to...</p>
-                <div id="song" className="bg-[#21345F] text-white font-bold text-center p-2 rounded-3xl shadow-2xs">song - some artist</div>
-                {/* <iframe
-                    data-testid="embed-iframe"
-                    src="https://open.spotify.com/embed/playlist/6JnINspiEAX6b35xKLN3F1?utm_source=generator&theme=0"
-                    width="100%"
-                    height="352"
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                    loading="lazy"></iframe> */}
+                {/* <div id="song" className="bg-[#21345F] text-white font-bold text-center p-2 rounded-3xl shadow-2xs">song - some artist</div> */}
+                <SpotifyWidget/>
             </div>
             <div id="links" className="flex flex-row justify-center align-middle items-center gap-5">
                 <a href="https://github.com/cheetodustflori" target="_blank"><img src="github.svg" className=" w-[25px]"/></a>
