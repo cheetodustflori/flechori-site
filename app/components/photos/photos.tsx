@@ -102,6 +102,7 @@ export default function ImageGallery({ perPage = 12 }: { perPage?: number }) {
                 fill
                 className="object-cover "
                 sizes="(max-width: 640px) 33vw, 25vw"
+                style={{filter: "grayscale(100%)"}}
               />
             </div>
           ))}

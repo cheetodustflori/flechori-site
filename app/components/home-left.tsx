@@ -14,7 +14,7 @@ export default function HomeLeft() {
                     studying at the university of illinois at 
                     chicago 💻 i love to design and build new 
                     things, find some of them <Link href="/projects" className="underline">here</Link>. in my free
-                    time, i like to <Link href="/writing" className="underline">read</Link> and film <Link href="#" className="underline">videos</Link>, i also
+                    time, i like to <Link href="/writing" className="underline">write</Link> and film <Link href="#" className="underline">videos</Link>, i also
                     post my <Link href="/art" className="font-bold underline">doodles</Link> sometimes from lecture.
                     one day i will publish a web comic.
                 </p>

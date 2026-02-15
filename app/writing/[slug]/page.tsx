@@ -27,9 +27,10 @@ export default async function BlogPostPage({
     notFound();
   }
 
-  const bg = post.genre === 'poetry' ? "bg-white": "bg-[url('/writing/red-notecard.svg')]";
+  const bg = post.genre === 'poetry' || 'etc' ? "bg-white": "bg-[url('/writing/red-notecard.svg')]";
 
-  const paragraphs = post!.content.split("\n\n");
+  // Split by double newlines to treat stanzas as separate blocks
+  const stanzas = post.content.split("\n\n");
 
   return (
     <div className="flex flex-col gap-10 m-[15px]">
@@ -44,9 +45,9 @@ export default async function BlogPostPage({
         </p>
       </div>
 
-      <article className={`${bg} p-5 bg-repeat-y bg-cover bg-center font-larken space-y-4 leading-relaxed text-gray-800 border`}>
-        {paragraphs.map((para, idx) => (
-          <p key={idx}>{para}</p>
+      <article className={`${bg} whitespace-pre-wrap p-5 bg-repeat-y bg-cover bg-center font-larken space-y-4  text-gray-800 border`}>
+        {stanzas.map((para, idx) => (
+          <p key={idx} className="whitespace-pre-wrap leading-relaxed">{para}</p>
         ))}
       </article>
       <div>

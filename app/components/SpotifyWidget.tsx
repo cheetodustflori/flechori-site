@@ -32,7 +32,7 @@ export default async function SpotifyWidget() {
         <img src={albumImageUrl} alt={title} className="rounded-md object-cover" />
         {isPlaying && (
           <div className="absolute -bottom-1 -right-1 flex gap-0.5 bg-black p-1 rounded-sm">
-            <div className="w-1 h-3 bg-green-500 animate-[bounce_1s_infinite]" />
+            <div className="w-1 h-3 bg-green-500 animate-bounce" />
             <div className="w-1 h-3 bg-green-500 animate-[bounce_1.2s_infinite]" />
             <div className="w-1 h-3 bg-green-500 animate-[bounce_0.8s_infinite]" />
           </div>

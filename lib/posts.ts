@@ -15,9 +15,8 @@ export const posts: Post[] = [
     date: "2024-???",
     summary: "I catch summer like a flu",
     content: `
-Again
-
 I catch Summer like a flu:
+
 an early onset of dewy mornings
 
 drizzled over migraines, cooled by the
@@ -382,6 +381,20 @@ the skin until a rose bloomed
 on his pillow case.
     `.trim(),
     genre: "poetry",
+  },
+  {
+    slug: "objects",
+    title: "I do not know when objects started screaming,   ",
+    date: "2022-10-9",
+    summary: "but I remember the texture of its curling and the duration of its punishment.",
+    content: `
+but I remember the texture of its curling and the duration of its punishment. Tearing off the bark of a tree would emit a whimper, and driving became a chorus of wails from concrete pores. I had never yearned for silence until my father leapt into it embraced by the roar of his engine. Slipping under the scene of scattered metal was a faintly-volumed sipping: blades of grass consuming his crimson. Nature was taking us back, and I could only witness her hunger. 
+
+Sister, break my bread for me. I don’t sleep anymore. Instead, I walk. My feet drag callouses into the soil as I listen my way into the heart of the forest, coveted by the appetite of shadows. Finding approval in my nature, a string of groans lures me into an opening in the thicket; the sun bleeds through holes in hanging indigo as a silver plate melts into the horizon. No space for pondering. I sink myself into its solution and let my pores widen for sound. She kisses my innards where they bruise and mimics the sensation of fullness. 
+
+I have been spared from punishment. For now. She whispers to me of Parisian delicacies, thin limbs tasting of sweetness, and the emptiness inside her. I carry it between the lining of my stomach when I feign eating at the dinner table. Sister, when did you become so plump? Grinding rocks between molars for reprieve, I think I should give into silence as well, but I know she will not allow it. When the crust of the world breaks, I will be the last of its cravings. 
+    `.trim(),
+    genre: "prose",
   },
 ];
 
