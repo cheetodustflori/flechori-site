@@ -20,6 +20,7 @@ export default async function ProjectPage({
     
     const project = projects.find((p) => p.id === parseInt(id));
     const photos = project?.photos;
+    const photo = photos?.[0] ?? "#";
 
     if (!project) return <div>Project not found</div>;
 
@@ -29,9 +30,7 @@ export default async function ProjectPage({
                 <h1 className="text-2xl font-bold italic font-larken">{project.name}</h1>
                 <Link href="/projects" className="font-larken">back to projects</Link>
             </Header>
-            <div className="border rounded-3xl h-[400px]">
-                <img src={project.photos[0]}></img>
-            </div>
+                <img src={photo} className="border rounded-3xl h-[400px]"></img>
             <div id="project-description" className="flex flex-col w-full gap-10">
                 
                 <p className="font-larken font-bold"> <a href={project.link} target="_blank" className="underline">repository</a> | {project.date}</p>
