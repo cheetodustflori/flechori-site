@@ -26,19 +26,19 @@ export default async function SpotifyWidget() {
       href={songUrl} 
       target="_blank" 
       rel="noopener noreferrer"
-      className="flex items-center gap-4 p-3 border rounded-xl hover:shadow-md transition-shadow font-larken max-w-sm"
+      className="flex items-center gap-4 p-3 border rounded-xl hover:shadow-md transition-shadow font-larken max-w-[200px] "
     >
       <div className="relative w-12 h-12">
         <img src={albumImageUrl} alt={title} className="rounded-md object-cover" />
         {isPlaying && (
-          <div className="absolute -bottom-1 -right-1 flex gap-0.5 bg-black p-1 rounded-sm">
+          <div className="absolute -bottom-1 -right-1 flex gap-0.5 bg-black p-1 rounded-sm max-w-[200px]">
             <div className="w-1 h-3 bg-green-500 animate-bounce" />
             <div className="w-1 h-3 bg-green-500 animate-[bounce_1.2s_infinite]" />
             <div className="w-1 h-3 bg-green-500 animate-[bounce_0.8s_infinite]" />
           </div>
         )}
       </div>
-      <div className="flex flex-col overflow-hidden">
+      <div className="flex flex-col overflow-hidden  overflow-hidden text-ellipsis whitespace-nowrap">
         <p className="font-bold truncate">{title}</p>
         <p className="text-sm text-gray-600 truncate">{artist}</p>
       </div>

@@ -2,8 +2,10 @@ export interface Project {
     id: number;
     name: string;
     type: string,
-    link: string
+    link: string | "#",
+    site: string | "#",
     date: string,
+    photos: string[] | null,
 }
 
 export const projects: Project[] = [
@@ -11,63 +13,81 @@ export const projects: Project[] = [
         id: 1,
         name: "we get together",
         type: "web app",
-        link: "some-url",
-        date: "2025"
+        link: "https://github.com/cheetodustflori/We-Get-Together",
+        site: "https://cs484-efkn.web.app",
+        date: "december 2025",
+        photos: ["/projects/wegettog.png"],
     },
     {
         id: 2,
         name: "sweet t bakery",
         type: "web app",
         link: "some-url",
-        date: "2025"
+        site: "",
+        date: "2025",
+        photos: [""],
     },
     {
         id: 3,
         name: "commuter connect",
         type: "web app",
         link: "some-url",
-        date: "2025"
+        site: "",
+        date: "2025",
+        photos: [""],
     },
     {
         id: 4,
         name: "wics website",
         type: "web app",
         link: "some-url",
-        date: "2025"
+        site: "",
+        date: "2025",
+        photos: [""],
     },
     {
         id: 5,
         name: "spackhacks 2025",
         type: "web app",
         link: "some-url",
-        date: "2025"
+        site: "",
+        date: "2025",
+        photos: [""],
     },
     {
         id: 6,
         name: "sparkhacks 2026",
         type: "web app",
         link: "some-url",
-        date: "2025"
+        site: "",
+        date: "2025",
+        photos: [""],
     },
     {
         id: 7,
         name: "travel bucket list",
         type: "web app",
         link: "some-url",
-        date: "2025"
+        site: "",
+        date: "2025",
+        photos: [""],
     },
     {
         id: 8,
         name: "personal site 2024",
         type: "web app",
         link: "some-url",
-        date: "2025"
+        site: "",
+        date: "2025",
+        photos: [""],
     },
     {
         id: 9,
         name: "leaf project",
         type: "web app",
         link: "some-url",
-        date: "2025"
+        site: "",
+        date: "2025",
+        photos: [""],
     },
 ];

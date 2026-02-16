@@ -9,19 +9,24 @@ export default function Books() {
 
   return (
     <div className="m-[15px]">
-      <div className="flex flex-col gap-10 items-center mb-10">
+      <div className="flex flex-col gap-5 items-center mb-10">
         <Header>
           <h1 className="text-2xl font-bold italic font-larken">
-            books and stories that...
+            stories that made me feel...
           </h1>
         </Header>
+        <div>
+          <div>“A reader lives a thousand lives before he dies. The man who never reads lives only one.”</div>
+          <div>- George R.R. Martin, <i>A Dance with Dragons</i></div>
+        </div>
+        
       </div>
 
       <div className="columns-2 md:columns-4 gap-4 space-y-4 pb-[50px]">
         {books.map((book) => (
           <div 
             key={book.id} 
-            className="relative group cursor-pointer break-inside-avoid"
+            className="relative group break-inside-avoid"
             onClick={() => setSelectedBook(book)}
           >
             {/* Book Cover */}
@@ -32,17 +37,17 @@ export default function Books() {
             />
 
             {/* Hover Rating Overlay */}
-            <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
+            {/* <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
               <p className="text-white font-larken text-xl font-bold">
                 Rating: {book.rating}
               </p>
-            </div>
+            </div> */}
           </div>
         ))}
       </div>
 
       {/* Review Modal (Pop-up) */}
-      {selectedBook && (
+      {/* {selectedBook && (
         <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4" onClick={() => setSelectedBook(null)}>
           <div className="bg-white p-8 rounded-2xl max-w-md w-full font-larken shadow-2xl" onClick={(e) => e.stopPropagation()}>
             <h2 className="text-3xl font-bold mb-2">{selectedBook.title}</h2>
@@ -56,7 +61,7 @@ export default function Books() {
             </button>
           </div>
         </div>
-      )}
+      )} */}
     </div>
   );
 }
