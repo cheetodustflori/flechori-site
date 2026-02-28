@@ -30,7 +30,7 @@ const experiences: Experience[] = [
         companyLink: "#",
         position: "front end swe developer intern",
         date: "jun 25 - aug 25",
-        photoUrl: ["#"],
+        photoUrl: ["/experience/iman2.png","/experience/iman3.png","/experience/iman4.png","/experience/iman5.png","/experience/iman6.png",],
         tools: "a,b,c",
         description: "Built a collaborative commenting extension for an enterprise web application, adding threaded replies, resolve/edit/delete actions, and Microsoft Office Word integration with React. Implemented REST API endpoints to store comments in Microsoft Azure Table NoSQL Storage. Authored and deployed 10+ automated UI tests using Selenium in PyCharm, utilized Jenkins. Worked in two-week Agile sprints in Jira to deliver 3 production-ready pull requests into codebase.",
         color: "blue"
@@ -71,6 +71,7 @@ const experiences: Experience[] = [
 ];
 
 export default function Experience() {
+    
     return (
         <div className="flex flex-col gap-5">
             {experiences.map(experience => (

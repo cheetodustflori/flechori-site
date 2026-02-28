@@ -13,8 +13,8 @@ export default function HomeRight() {
                 <SpotifyWidget/>
             </div>
             <div id="links" className="flex flex-row justify-center align-middle items-center gap-5">
-                <a href="https://github.com/cheetodustflori" target="_blank"><img src="github.svg" className=" w-[25px]"/></a>
-                <a href="https://www.linkedin.com/in/florianne-che/" target="_blank"><img src="in.svg" className=" w-[25px]"/></a>
+                <a href="https://github.com/cheetodustflori" target="_blank"><img src="github.png" className=" w-[30px]"/></a>
+                <a href="https://www.linkedin.com/in/florianne-che/" target="_blank"><img src="linkedin.png" className=" w-[25px]"/></a>
                 <a href="mailto:florianneche@gmail.com?subject=flechori&body=I visited your personal website and love it!" target="_blank"><img src="mail.svg" className=" w-[25px]"/></a>
                 <a href="https://www.youtube.com/@florianneche" target="_blank"><img src="video.svg" className=" w-[25px]"/></a>
             </div>

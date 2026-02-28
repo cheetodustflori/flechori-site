@@ -19,8 +19,8 @@ export default async function ProjectPage({
     // Note: params.id comes in as a string from the URL
     
     const project = projects.find((p) => p.id === parseInt(id));
-    const photos = project?.photos;
-    const photo = photos?.[0] ?? "#";
+    const photo = project?.photos?.[0] ?? "";
+    const linkExists = project?.site;
 
     if (!project) return <div>Project not found</div>;
 
@@ -32,17 +32,24 @@ export default async function ProjectPage({
             </Header>
                 <img src={photo} className="border rounded-3xl h-[400px]"></img>
             <div id="project-description" className="flex flex-col w-full gap-10">
-                
-                <p className="font-larken font-bold"> <a href={project.link} target="_blank" className="underline">repository</a> | {project.date}</p>
+                <div className="flex">
+                    <img src="/github.png" width="30px"/>
+                    <p className="font-larken font-bold">
+                    <a href={project.link} target="_blank" className="underline">repository</a> | {project.date} | </p>
+                    {linkExists && <a href={project.site} target="_blank" className="ml-3 underline">🔗 visit the site</a>}
+                </div>
                 <ul className="flex flex-col gap-10">
                     <li>
                         <p className="font-bold font-larken">tools:</p>
+                        <p>{project.tools}</p>
                     </li>
                     <li>
                         <p className="font-bold font-larken">description:</p>
+                        <p>{project.description}</p>
                     </li>
                     <li>
                         <p className="font-bold font-larken">my role:</p>
+                        <p>{project.role}</p>
                     </li>
                     
                 

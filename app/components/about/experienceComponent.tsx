@@ -4,6 +4,8 @@ type Props = {
     experience: Experience;
 };
 
+
+
 export default function ExperienceComponent({experience}:Props) {
     return (
         <div className="flex flex-col gap-4 mt-[15px] font-larken">
@@ -18,7 +20,9 @@ export default function ExperienceComponent({experience}:Props) {
             </div>
             <div id="exp-photos" className="m-auto">
                 <ul className="flex flex-row gap-3">
-                    <li className="w-[150px] h-[150px] border"></li>
+                    <li className="w-[150px] h-[150px] border">
+                        <img src={experience.photoUrl[0]}/>
+                    </li>
                     <li className="w-[150px] h-[150px] border"></li>
                     <li className="w-[150px] h-[150px] border"></li>
                     <li className="w-[150px] h-[150px] border"></li>
