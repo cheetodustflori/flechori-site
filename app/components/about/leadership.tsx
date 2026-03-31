@@ -8,8 +8,8 @@ const leadership: Experience[] = [
         companyLink: "#",
         position: "dev project: lead",
         date: "may 25 - aug 25",
-        photoUrl: ["#"],
-        tools: "a,b,c",
+        photoUrl: ["leadership/wics/wics1.jpg","leadership/wics/wics2.jpg","leadership/wics/wics3.jpg","leadership/wics/wics4.jpg","leadership/wics/wics5.jpg",],
+        tools: "",
         description: "Lead team of 15 students in semester-long website development projects using React.js, Astro, and Node.js.",
         color: "yellow"
     },
@@ -19,9 +19,9 @@ const leadership: Experience[] = [
         companyLink: "#",
         position: "web dev team: lead",
         date: "may 25 - aug 25",
-        photoUrl: ["#"],
-        tools: "a,b,c",
-        description: "a,b,c",
+        photoUrl: ["leadership/sparkhacks/sh9.jpg","leadership/sparkhacks/sh3.jpg","leadership/sparkhacks/sh8.jpg","leadership/sparkhacks/sh5.jpg","leadership/sparkhacks/sh2.png","leadership/sparkhacks/sh7.png","leadership/sparkhacks/sh1.jpg",],
+        tools: "",
+        description: "Lead team of developers. Support 2-day Hackathon event.",
         color: "yellow"
     },
     {
@@ -30,9 +30,9 @@ const leadership: Experience[] = [
         companyLink: "#",
         position: "sig ios lead + treasurer",
         date: "may 25 - aug 25",
-        photoUrl: ["#"],
-        tools: "a,b,c",
-        description: "a,b,c",
+        photoUrl: ["leadership/acm/acm.jpg","leadership/acm/acm2.jpg","leadership/acm/acm3.jpg","leadership/acm/acm4.jpg",],
+        tools: "",
+        description: "Taught students Swift for one semester. Supported administrative needs, organized events, held educational workshop events, contributed to leadership meetings.",
         color: "yellow"
     },
     {
@@ -41,9 +41,9 @@ const leadership: Experience[] = [
         companyLink: "#",
         position: "ios developer",
         date: "may 25 - aug 25",
-        photoUrl: ["#"],
-        tools: "a,b,c",
-        description: "a,b,c",
+        photoUrl: ["leadership/leaf/leaf.png","leadership/leaf/leaf2.jpg","leadership/leaf/leaf4.png","leadership/leaf/leaf5.png","leadership/leaf/leaf6.png","leadership/leaf/leaf7.jpg",],
+        tools: "",
+        description: "Served as education chair and iOS developer. Was part of the iOS development of financial literacy app and hosted several financial literacy events (discussions, speaker events, and fundraisers). ",
         color: "yellow"
     },
 ];

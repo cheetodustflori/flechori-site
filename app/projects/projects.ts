@@ -32,8 +32,8 @@ export const projects: Project[] = [
         site: "https://wics-uic.github.io/Sweet-T/",
         date: "aug 2025 - december 2025",
         photos: ["/projects/sweetT.png"],
-        tools: ["Figma, Astro, TailwindCSS"],
-        description: "",
+        tools: ["Figma, Astro, TailwindCSS, MongoDB, Express, Node.js"],
+        description: "We built a website prototype for a local bakery: Sweet T. We provided add-to-cart functionality, and an admin dashboard with a working backend for user authentication and order management.",
         role: "Dev Lead",
     },
     {
@@ -62,8 +62,8 @@ export const projects: Project[] = [
         date: "spring 2025",
         photos: ["/projects/wics-site.png"],
         tools: ["Figma, Astro, TailwindCSS"],
-        description: "",
-        role: "",
+        description: "I led a cohort of 15 students to build the official Women in Computer Science (WICS) website. Features include an about, contact, and sponsorship page.",
+        role: "Dev Lead",
     },
     {
         id: 5,
@@ -74,7 +74,7 @@ export const projects: Project[] = [
         date: "august 2025 - january 2026",
         photos: ["/projects/sh26.png"],
         tools: ["Figma, Astro, TailwindCSS"],
-        description: "",
+        description: "I led the development of the official SparkHacks website for UIC's annual Hackathon. Mobile responsive.",
         role: "Web Dev Lead",
     },
     {
@@ -86,7 +86,7 @@ export const projects: Project[] = [
         date: "august 2024 - january 2025",
         photos: ["/projects/sh25.png"],
         tools: ["Figma, Astro, TailwindCSS"],
-        description: "",
+        description: "I was part of the development of the official SparkHacks Website for UIC's annual Hackathon. Mobile responsive.",
         role: "Web Dev Member",
     },
     {
@@ -98,8 +98,8 @@ export const projects: Project[] = [
         date: "spring 2024",
         photos: [""],
         tools: ["Swift, Xcode"],
-        description: "",
-        role: "",
+        description: "One of my first CS projects! I taught a group of students how to use Swift and built a Travel Bucket List app that tracks travel destinations and categorizes them.",
+        role: "SIG IOS Lead",
     },
     {
         id: 8,
@@ -110,8 +110,8 @@ export const projects: Project[] = [
         date: "summer 2024",
         photos: ["/projects/personal-site-2024.png"],
         tools: ["HTML, CSS, JS"],
-        description: "",
-        role: "",
+        description: "My first personal website! This website displays some of my hobbies and CS projects.",
+        role: "Developer",
     },
     {
         id: 9,
@@ -122,8 +122,8 @@ export const projects: Project[] = [
         date: "fall 2023",
         photos: ["/projects/leaf.png"],
         tools: ["Swift, Xcode"],
-        description: "",
-        role: "",
+        description: "Financial literacy app that aims to educate its users through fun tasks. I built the entire frontend.",
+        role: "iOS Developer",
     },
     {
         id: 10,
@@ -134,8 +134,8 @@ export const projects: Project[] = [
         date: "spring 2024",
         photos: ["/projects/courseplanner.png"],
         tools: ["Figma, React"],
-        description: "",
-        role: "",
+        description: "WiCS Dev Project: Fall 2024. The first iteration fo the WiCS Dev Project. We built a course catalog of UIC courses with difficulty ratings and topics attached to each course.",
+        role: "Dev Lead",
     },
     {
         id: 11,
@@ -146,7 +146,7 @@ export const projects: Project[] = [
         date: "august 2024 - present",
         photos: ["/projects/sh26.png"],
         tools: ["Figma, Astro, TailwindCSS, Firebase, QRScanner"],
-        description: "",
+        description: "SparkHacks application manager. User authentication. Allows admin users to manage and view applications, as well as scan user QR codes and update their status. Allows applicants to submit and view their application status.",
         role: "",
     },
 ];

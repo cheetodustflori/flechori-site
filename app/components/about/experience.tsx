@@ -15,12 +15,12 @@ export interface Experience {
 const experiences: Experience[] = [
     {
         id: 1,
-        company: "mcdonald's",
+        company: "peak6",
         companyLink: "#",
         position: "software developer intern",
         date: "jun 26 - aug 26",
         photoUrl: ["#"],
-        tools: "a,b,c",
+        tools: "...",
         description: "upcoming!!",
         color: "blue"
     },
@@ -30,8 +30,8 @@ const experiences: Experience[] = [
         companyLink: "#",
         position: "front end swe developer intern",
         date: "jun 25 - aug 25",
-        photoUrl: ["/experience/iman2.png","/experience/iman3.png","/experience/iman4.png","/experience/iman5.png","/experience/iman6.png",],
-        tools: "a,b,c",
+        photoUrl: ["/experiences/imanage/iman2.jpg","/experiences/imanage/iman3.jpg","/experiences/imanage/iman4.jpg","/experiences/imanage/iman5.jpg","/experiences/imanage/iman6.jpg",],
+        tools: "React, Microsoft Azure Storage, Selenium, PyTorch",
         description: "Built a collaborative commenting extension for an enterprise web application, adding threaded replies, resolve/edit/delete actions, and Microsoft Office Word integration with React. Implemented REST API endpoints to store comments in Microsoft Azure Table NoSQL Storage. Authored and deployed 10+ automated UI tests using Selenium in PyCharm, utilized Jenkins. Worked in two-week Agile sprints in Jira to deliver 3 production-ready pull requests into codebase.",
         color: "blue"
     },
@@ -52,7 +52,7 @@ const experiences: Experience[] = [
         companyLink: "#",
         position: "research assistant + web dev",
         date: "may 24 - aug 25",
-        photoUrl: ["#"],
+        photoUrl: [],
         tools: "html, css, jquery, Figma",
         description: "Developed re-design of website interface in HTML, CSS, JS, and jQuery for a teacher authoring tool, increasing navigation efficiency and usability. Implemented visual summary of teacher comment types and filtering mechanism to sort comment types. Led in-person research at Forest Park Middle School, collecting feedback from 20+ students.",
         color: "blue"
@@ -63,7 +63,7 @@ const experiences: Experience[] = [
         companyLink: "#",
         position: "front end swe developer",
         date: "may 24",
-        photoUrl: ["#"],
+        photoUrl: ["/experiences/innovation/inov1.jpg","/experiences/innovation/inov2.jpg","/experiences/innovation/inov3.jpg","/experiences/innovation/inov4.jpg","/experiences/innovation/inov5.jpg",],
         tools: "Figma",
         description: "Led ideation and UI/UX design in Figma of healthcare app interface collecting health-needs assessments to improve rural clinic services. Conducted demographic research to tailor features for underserved rural populations.",
         color: "blue"
