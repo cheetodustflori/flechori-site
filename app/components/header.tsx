@@ -5,7 +5,7 @@ export default function Header({
 }>) {
     return (
         <>
-        <div className="flex flex-row w-full justify-between">
+        <div className="flex flex-col md:flex-row md:w-full md:justify-between">
                         {children}
                     </div>
         </>
