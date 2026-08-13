@@ -31,7 +31,7 @@ const leadership: Experience[] = [
         companyLink: "#",
         position: "web dev team: lead",
         date: "may 25 - aug 25",
-        photoUrl: ["leadership/sparkhacks/sh9.jpg","leadership/sparkhacks/sh3.jpg","leadership/sparkhacks/sh8.jpg","leadership/sparkhacks/sh5.jpg","leadership/sparkhacks/sh2.png","leadership/sparkhacks/sh7.png","leadership/sparkhacks/sh1.jpg",],
+        photoUrl: ["leadership/sparkhacks/sh9.jpg","leadership/sparkhacks/sh3.jpg","leadership/sparkhacks/sh8.jpg","leadership/sparkhacks/sh1.jpg",],
         tools: "",
         description: "Designed Sparkhacks 2026 website. Led team of 5 developers. Supported 2-day Hackathon event for my Sophomore and Junior years.",
         color: "yellow"

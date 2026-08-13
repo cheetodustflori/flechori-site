@@ -19,7 +19,7 @@ const experiences: Experience[] = [
         companyLink: "#",
         position: "ui design intern",
         date: "may 24",
-        photoUrl: ["/experiences/innovation/inov1.jpg","/experiences/innovation/inov2.jpg","/experiences/innovation/inov3.jpg","/experiences/innovation/inov4.jpg","/experiences/innovation/inov5.jpg",],
+        photoUrl: ["/experiences/innovation/inov2.jpg","/experiences/innovation/inov3.jpg","/experiences/innovation/inov4.jpg","/experiences/innovation/inov5.jpg",],
         tools: "Figma",
         description: "Led ideation and UI/UX design in Figma of healthcare app interface collecting health-needs assessments to improve rural clinic services. Conducted demographic research to tailor features for underserved rural populations.",
         color: "blue"
@@ -52,7 +52,7 @@ const experiences: Experience[] = [
         companyLink: "#",
         position: "front end swe developer intern",
         date: "jun 25 - aug 25",
-        photoUrl: ["/experiences/imanage/iman2.jpg","/experiences/imanage/iman3.jpg","/experiences/imanage/iman4.jpg","/experiences/imanage/iman5.jpg","/experiences/imanage/iman6.jpg",],
+        photoUrl: ["/experiences/imanage/iman2.jpg","/experiences/imanage/iman4.jpg","/experiences/imanage/iman5.jpg","/experiences/imanage/iman6.jpg",],
         tools: "React, Python, Jenkins, Microsoft Azure Storage, Selenium, PyTorch",
         description: "Built a collaborative commenting extension for an enterprise web application, adding threaded replies, resolve/edit/delete actions, and Microsoft Office Word integration with React. Implemented REST API endpoints to store comments in Microsoft Azure Table NoSQL Storage. Authored and deployed 10+ automated UI tests using Selenium in PyCharm, utilized Jenkins. Worked in two-week Agile sprints in Jira to deliver 3 production-ready pull requests into codebase.",
         color: "blue"
