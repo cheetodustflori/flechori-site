@@ -7,11 +7,13 @@ import Image from "next/image";
 
 export default function About() {
     return (
-        <div id="#about" className="flex flex-col gap-10 pb-[15px]">
+        <div id="#about" className="flex flex-col gap-10 pb-[15px] overflow-clip ">
             <Footer/>
             <div>
+                <div className="text-center font-bold">FLORIANNE CHE... FLORI CHE... <i>FLECHORI..?</i></div>
                 <div className="text-center">COMPUTER SCIENCE @ UNIVERSITY OF IL. CHICAGO</div>
-            <div className="text-center">Grad: May 2027</div>
+                <div className="text-center">GRAD. MAY 2027</div>
+                <div className="text-center">likes: walking, purple rice from hey yogurt, jjk </div>
             </div>
             
             <div id="top-about" className="md:grid md:grid-cols-2 font-larken mt-[15px] mb-[15px]">

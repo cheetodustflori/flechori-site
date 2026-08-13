@@ -9,7 +9,7 @@ export default function BlogPage() {
     default: "bg-[url('/writing/notecard.svg')]"
   };
   return (
-    <div className="flex flex-col gap-10 m-[15px]">
+    <div className="flex flex-col gap-10 m-[15px] overflow-clip">
       <Header>
         <h1 className="text-2xl font-bold italic font-larken ">writing</h1>
         <ul className="flex flex-row gap-2">
@@ -27,15 +27,15 @@ export default function BlogPage() {
           <li key={post.slug}>
             <Link
               href={`/writing/${post.slug}`}
-              className="text-xl"
+              className="md:text-xl"
             >
-              <div className={`${bgImage} hover:relative hover:top-1 font-pecita left-[-70px] relative flex align-middle bg-[url('/writing/notecard.svg')] bg-no-repeat bg-contain w-full h-[200px]`}>
+              <div className={`${bgImage} ml-20 hover:relative hover:top-1 font-pecita left-[-70px] relative flex align-middle bg-[url('/writing/notecard.svg')] bg-no-repeat bg-contain md:w-full h-[200px]`}>
                 <div className="flex flex-col max-w-[400px]">
-                  <div className="relative left-[120px] top-[5px]">
+                  <div className="text-sm max-w-50 md:text-xl md:max-w-full font-bold relative left-[120px] top-[5px]">
                   {new Date(post.date).toLocaleDateString()}: {post.title}
                   </div>
                 <div>
-                  <p className="relative left-[120px] top-2.5 overflow-clip whitespace-normal text-ellipsis">{post.summary}</p>
+                  <p className="text-sm max-w-50  md:max-w-100 relative left-[120px] top-2.5 overflow-clip whitespace-normal text-ellipsis">{post.summary}</p>
                 </div>
                 </div>
                 

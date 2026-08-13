@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function NavBar() {
     return (
         <div className="flex flex-col text-sm w-fit md:flex-row ml-[15px] md:mr-[15px] items-center align-middle relative justify-between h-[30px]">
-            <Link href="/" className="md:text-2xl font-bold font-larken">flechori 🧸  🚏 📎 🪪 📷</Link>
+            <Link href="/" className="md:text-2xl hover:underline font-bold font-larken">flechori 🧸  🚏 📎 🪪 📷</Link>
             <h1 className="hidden md:block text-2xl font-pecita tablet:hidden">__ my portfolio</h1>
         </div>
     )

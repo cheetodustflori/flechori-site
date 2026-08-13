@@ -13,7 +13,7 @@ export default function Books() {
       <div className="flex flex-col gap-5 items-center mb-10">
         <Header>
           <h1 className="text-2xl font-bold italic font-larken">
-            stories that made me feel...
+            stories and words and worlds
           </h1>
         </Header>
         <div>

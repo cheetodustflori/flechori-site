@@ -135,8 +135,8 @@ export const books: Book[] = [
   },
   {
     id: 19,
-    title: "Miss Peregrine's School for Peculiar Children",
-    cover: "/books/peregrine.jpg",
+    title: "shadow of the almighty",
+    cover: "/books/shadow.jpg",
     rating: "4.5/5",
     review: "A classic look at the American Dream. The prose is beautiful."
   },
@@ -184,8 +184,43 @@ export const books: Book[] = [
   },
   {
     id: 26,
-    title: "The Great Gatsby",
+    title: "twd",
     cover: "/books/twd.jpg",
+    rating: "4.5/5",
+    review: "A classic look at the American Dream. The prose is beautiful."
+  },
+  {
+    id: 27,
+    title: "twd",
+    cover: "/books/hardegg.jpg",
+    rating: "4.5/5",
+    review: "A classic look at the American Dream. The prose is beautiful."
+  },
+  {
+    id: 28,
+    title: "foundation",
+    cover: "/books/foundation.jpg",
+    rating: "4.5/5",
+    review: "A classic look at the American Dream. The prose is beautiful."
+  },
+  {
+    id: 29,
+    title: "killing commendator",
+    cover: "/books/killing.jpg",
+    rating: "4.5/5",
+    review: "A classic look at the American Dream. The prose is beautiful."
+  },
+  {
+    id: 30,
+    title: "killing commendator",
+    cover: "/books/tree.jpg",
+    rating: "4.5/5",
+    review: "A classic look at the American Dream. The prose is beautiful."
+  },
+  {
+    id: 31,
+    title: "killing commendator",
+    cover: "/books/colorless.jpg",
     rating: "4.5/5",
     review: "A classic look at the American Dream. The prose is beautiful."
   },
