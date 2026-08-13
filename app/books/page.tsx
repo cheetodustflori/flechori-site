@@ -3,6 +3,7 @@ import { useState } from "react";
 import Header from "../components/header";
 import {books} from "./books";
 import type { Book } from "./books";
+import Image from "next/image";
 
 export default function Books() {
   const [selectedBook, setSelectedBook] = useState<Book | null>(null);
@@ -30,7 +31,8 @@ export default function Books() {
             onClick={() => setSelectedBook(book)}
           >
             {/* Book Cover */}
-            <img
+            <Image 
+              width="300" height="300" 
               className="w-full rounded-lg transition-transform duration-300 group-hover:scale-[1.02]"
               src={book.cover}
               alt={book.title}

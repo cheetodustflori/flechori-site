@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Modal from "../modal";
 import type { Experience } from "./experience";
+import Image from "next/image";
 
 type Props = {
   experience: Experience;

@@ -35,6 +35,9 @@ const almarai = Almarai({
 export const metadata: Metadata = {
   title: "Flechori",
   description: "My Personal Site",
+  icons: {
+    icon: '/favicon.svg'
+  }
   // viewport: 'width=device-width, initial-scale=1',
 };
 
@@ -46,10 +49,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${almarai.variable} ${larken.variable} ${pecita.variable} antialiased`}
+        className={`${almarai.variable} ${larken.variable} ${pecita.variable} md:w-screen antialiased`}
       >
         <ViewTransition>
-        <div className=" flex flex-col gap-5 m-auto h-screen w-2xl p-[15px]">
+        <div className="flex flex-col gap-5 md:m-auto md:w-2xl p-[15px]">
 
         <NavBar/>
         {children}

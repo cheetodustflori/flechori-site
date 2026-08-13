@@ -1,5 +1,6 @@
 import Header from "../components/header";
 import ImageGallery from "../components/photos/photos";
+import Image from "next/image";
 
 export default function Photos(){
     return (
@@ -17,8 +18,8 @@ export default function Photos(){
 
             <div id="bottom-photos" className="flex flex-col items-center">
                 <div className="flex flex-row gap-5">
-                    <img src="sonyzv1.svg"/>
-                    <img src="sonydigi.svg"/>
+                    <Image width={50} height={50} alt="sonyzv1" src="sonyzv1.svg"/>
+                    <Image width={50} height={50} alt="sonyzv1"  src="sonydigi.svg"/>
                 </div>
                 <p className="font-bold font-larken">@flechori on instagram</p>
             </div>

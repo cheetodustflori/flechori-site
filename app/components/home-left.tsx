@@ -1,13 +1,14 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function HomeLeft() {
     return (
-        <div className="flex flex-col gap-4 m-auto">
-            <div className="w-full m-auto">
-                <Link href="/projects"><img className="hover:shadow-sm rounded-2xl hover:shadow-sm rounded-2xl" src="projects.svg"/></Link>
+        <div className="flex flex-col gap-4 w-full mx-auto md:m-auto  md:max-w-[300px]">
+            <div className="w-fit md:m-auto">
+                <Link href="/projects"><Image  width="200" height="200" alt="projects"  className="hover:shadow-sm rounded-2xl hover:shadow-sm rounded-2xl" src="/projects.svg"/></Link>
             </div>
             <div id="homeLeftBlurb">
-                <p className="max-w-[300px]">
+                <p className="max-w-[200px] md:max-w-[300px]">
                     welcome to my page! this site is a digital
                     record of all my projects, hobbies, and 
                     interests. i'm a computer science major
@@ -19,13 +20,13 @@ export default function HomeLeft() {
                     one day i will publish a web comic.
                 </p>
             </div>
-            <div id="creative spaces" className=" w-fit">
+            <div id="creative spaces" className="w-full">
                 <h1 className="mb-3">explore my creative <b>spaces</b> here:</h1>
                 <div className="grid grid-cols-2 gap-7 p-0 w-fit m-auto">
-                    <Link href="/books" className=" m-auto w-[50px] text-center"><img className="hover:shadow-sm rounded-2xl" src="app-1.svg"/>books</Link>
-                    <Link href="/writing" className=" m-auto w-[50px] text-center"><img className="hover:shadow-sm rounded-2xl" src="app-2.svg"/>writing</Link>
-                    <Link href="/photos" className=" m-auto w-[50px] text-center"><img className="hover:shadow-sm rounded-2xl" src="app-3.svg"/>photos</Link>
-                    <Link href="/art" className=" m-auto w-[50px] text-center"><img className="hover:shadow-sm rounded-2xl" src="app-4.svg"/>art</Link>
+                    <Link href="/books" className=" m-auto w-[50px] text-center"><Image  width="300" height="300" alt="book" className="hover:shadow-sm rounded-2xl" src="app-1.svg"/>books</Link>
+                    <Link href="/writing" className=" m-auto w-[50px] text-center"><Image  width="300" height="300" alt="writing" className="hover:shadow-sm rounded-2xl" src="app-2.svg"/>writing</Link>
+                    <Link href="/photos" className=" m-auto w-[50px] text-center"><Image  width="300" height="300" alt="photos" className="hover:shadow-sm rounded-2xl" src="app-3.svg"/>photos</Link>
+                    <Link href="/art" className=" m-auto w-[50px] text-center"><Image  width="300" height="300" alt="art" className="hover:shadow-sm rounded-2xl" src="app-4.svg"/>art</Link>
                 </div>
             </div>
         </div>

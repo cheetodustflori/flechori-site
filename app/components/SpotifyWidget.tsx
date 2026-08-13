@@ -1,5 +1,6 @@
 // components/SpotifyWidget.tsx
 import { getNowPlaying } from "@/lib/spotify";
+import Image from "next/image";
 
 export default async function SpotifyWidget() {
   const response = await getNowPlaying();
@@ -28,8 +29,8 @@ export default async function SpotifyWidget() {
       rel="noopener noreferrer"
       className="flex items-center gap-4 p-3 border rounded-xl hover:shadow-md transition-shadow font-larken max-w-[200px] "
     >
-      <div className="relative w-12 h-12">
-        <img src={albumImageUrl} alt={title} className="rounded-md object-cover" />
+      <div className="relative w-full md:w-12 h-12">
+        <Image width="200" height="300" src={albumImageUrl} alt={title} className="rounded-md object-cover" />
         {isPlaying && (
           <div className="absolute -bottom-1 -right-1 flex gap-0.5 bg-black p-1 rounded-sm max-w-[200px]">
             <div className="w-1 h-3 bg-green-500 animate-bounce" />
@@ -38,7 +39,7 @@ export default async function SpotifyWidget() {
           </div>
         )}
       </div>
-      <div className="flex flex-col overflow-hidden  overflow-hidden text-ellipsis whitespace-nowrap">
+      <div className="flex flex-col overflow-hidden text-ellipsis whitespace-nowrap">
         <p className="font-bold truncate">{title}</p>
         <p className="text-sm text-gray-600 truncate">{artist}</p>
       </div>

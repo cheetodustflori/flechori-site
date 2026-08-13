@@ -2,17 +2,18 @@ import Footer from "../components/footer"
 import Skills from "../components/about/skills";
 import Experience from "../components/about/experience";
 import Leadership from "../components/about/leadership";
+import Image from "next/image";
 
 
 export default function About() {
     return (
         <div id="#about" className="flex flex-col gap-10 pb-[15px]">
             <Footer/>
-            <div id="top-about" className="grid grid-cols-2 font-larken mt-[15px] mb-[15px]">
-                <div>
-                    <img src="polaroid2.png"/>
+            <div id="top-about" className="md:grid md:grid-cols-2 font-larken mt-[15px] mb-[15px]">
+                <div className="hidden md:block">
+                        <Image alt="polaroid2" width="300" height="300" src="/polaroid2.png" className=""/>
                 </div>
-                <div className="text-right">
+                <div className="md:text-right w-full">
                     <p>
                         {/* <pre> */}
                         i’ve always been the type of person who 
@@ -47,19 +48,19 @@ export default function About() {
                 <p>
                     I was promoted to leadership positions in three CS clubs by the end of my
                     freshman year. I learned how to communicate my strengths and develop my
-                    technical skills on my own. I felt proud.
+                    technical skills on my own.
                     <br/>
                     <br/>
-                    But CS is a tough field to excel in. As important as it is to network and get 
+                    In addition to the soft skills, the tech skills matter just as much. CS is a tough field to excel in. As important as it is to network and get 
                     involved in clubs, you also just need to be good at programming and, to a 
                     certain extend, enjoy it. I struggled initially in my sophomore year.  As I got 
-                    exposed to more of the CS field, I felt like a fish-out-of-water. There was a 
+                    exposed to more of the CS field, I felt more like a fish-out-of-water. There was a 
                     lot of uncertainty about my capabilities.
                     <br/>
                     <br/>
-                    Still I pushed along. I endured. I expanded my skills and challenged myself 
+                    I had many mentors and classmates who encouraged me to keep pushing. YouTube creators served as points of inspiration. I endured. I expanded my skills and challenged myself 
                     to keep learning. I developed a love for designing fun interfaces and web 
-                    development. In my free time, i watched tutorial videos.
+                    development. In my free time, I watched tutorial videos to build my skills.
                     <br/>
                     <br/>
                     By the time I entered summer 2025, i realized how much I <b>love</b> designing, 
@@ -70,16 +71,11 @@ export default function About() {
                     What’s my goal in life? To honor and glorify God and enjoy Him forever.
                     <br/>
                     <br/>
-                    What does that mean for me? That in everything I do, I honor Him with my discipline, integrity, and commitment to serving people. I’m not chasing after money, fame, or achievement. 
+                    In everything I do, I seek to honor Him with my discipline, integrity, and commitment to serving people.
                     <br/>
                     <br/>
-                    I’m looking for a greater glory. If God wills it, I will continue to do so as a teacher,  programmer, and lifelong student.
-                    <br/>
-                    <br/>
-                    So that’s me. Everything below is part of me too. But you can only know so much about a person from the things they do.  The heart is where the truth is revealed.
-                    <br/>
-                    <br/>
-                    So I showed you my heart. Now this is the fruit of that.
+                    If God wills it, I will continue to do so as a teacher,  programmer, and lifelong student.
+                
                 </p>
             </div>
 
@@ -88,10 +84,10 @@ export default function About() {
             <div id="about-bottom-section" className="flex flex-col gap-10">
 
             
-                <div id="skills" className="">
+                {/* <div id="skills" className="">
                     <h1 className="font-bold text-2xl">✏️ SKILLS</h1>
                     <Skills/>
-                </div>
+                </div> */}
 
                 {/* EXPERIENCE */}
 

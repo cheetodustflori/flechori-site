@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+
 export default function Art() {
   const artCategories = [
   { slug: 'doodles', title: 'Doodles', icon: 'app-6.svg' },
@@ -18,7 +20,7 @@ export default function Art() {
               key={cat.slug} 
               className="border flex items-center hover:relative hover:bottom-1 hover:shadow-md">
               <div>
-                <img src={cat.icon}/>
+                <Image width="100" height="100" alt="cat" src={cat.icon}/>
               </div>
               <Link href={`/art/${cat.slug}`} className="font-bold text-2xl">
               {cat.title.toLowerCase()}</Link>

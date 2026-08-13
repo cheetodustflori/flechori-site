@@ -2,6 +2,7 @@ import {projects} from "../projects";
 import Header from "@/app/components/header";
 import Link from "next/link";
 import type { Project } from "../projects";
+import Image from "next/image";
 
 export function generateStaticParams() {
   return projects.map((project) => ({
@@ -30,10 +31,10 @@ export default async function ProjectPage({
                 <h1 className="text-2xl font-bold italic font-larken">{project.name}</h1>
                 <Link href="/projects" className="font-larken">back to projects</Link>
             </Header>
-                <img src={photo} className="border rounded-3xl h-[400px]"></img>
+                <Image width={720} height={200} alt="project" src={photo} className="md:w-[720px]border rounded-3xl h-[400px]"/>
             <div id="project-description" className="flex flex-col w-full gap-10">
                 <div className="flex">
-                    <img src="/github.png" width="30px"/>
+                    <Image width={30} height={30} alt="github" src="/github.png"/>
                     <p className="font-larken font-bold">
                     <a href={project.link} target="_blank" className="underline">repository</a> | {project.date} | </p>
                     {linkExists && <a href={project.site} target="_blank" className="ml-3 underline">🔗 visit the site</a>}
