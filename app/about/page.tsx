@@ -9,6 +9,11 @@ export default function About() {
     return (
         <div id="#about" className="flex flex-col gap-10 pb-[15px]">
             <Footer/>
+            <div>
+                <div className="text-center">COMPUTER SCIENCE @ UNIVERSITY OF IL. CHICAGO</div>
+            <div className="text-center">Grad: May 2027</div>
+            </div>
+            
             <div id="top-about" className="md:grid md:grid-cols-2 font-larken mt-[15px] mb-[15px]">
                 <div className="hidden md:block">
                         <Image alt="polaroid2" width="300" height="300" src="/polaroid2.png" className=""/>
