@@ -8,14 +8,13 @@ export default function Projects() {
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 9;
 
-    // Calculate indices
+    const sortedProjects = [...projects].sort((a,b) => b.id-a.id)
+
     const indexOfLastProject = currentPage * itemsPerPage;
     const indexOfFirstProject = indexOfLastProject - itemsPerPage;
     
-    // Slice the array to only show 9 projects
-    const currentProjects = projects.slice(indexOfFirstProject, indexOfLastProject);
+    const currentProjects = sortedProjects.slice(indexOfFirstProject, indexOfLastProject);
 
-    // Calculate total pages
     const totalPages = Math.ceil(projects.length / itemsPerPage);
 
     return (

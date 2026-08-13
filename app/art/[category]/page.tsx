@@ -24,7 +24,7 @@ export default function ArtCategoryPage({ params }: { params: Promise<{ category
                 <h1 className="text-4xl capitalize">{category}</h1>
                 <p className="mt-4 text-gray-600">Explore my collection of {category}.</p>
                 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-2 mt-10">
                     {filteredArt.length > 0 ? (
                         filteredArt.map((art) => (
                             <div 

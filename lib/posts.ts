@@ -244,48 +244,48 @@ the weight Of a sky extinguished
     `.trim(),
     genre: "poetry",
   },
-  {
-    slug: "backscatter",
-    title: "backscatter",
-    date: "2022-???",
-    summary: "Juvenile, the way lips wet the knuckle,  ...",
-    content: `
-Juvenile, the way lips wet the knuckle, 
-how beak and feather fetch laughter from my
+//   {
+//     slug: "backscatter",
+//     title: "backscatter",
+//     date: "2022-???",
+//     summary: "Juvenile, the way lips wet the knuckle,  ...",
+//     content: `
+// Juvenile, the way lips wet the knuckle, 
+// how beak and feather fetch laughter from my
 
-pit, when the weight of legs are no longer
-freeing. It must be youth that purloins woe
+// pit, when the weight of legs are no longer
+// freeing. It must be youth that purloins woe
 
-from my pores, folding skin over into a page 
-of names. Finger to cheek and, foreign to my
+// from my pores, folding skin over into a page 
+// of names. Finger to cheek and, foreign to my
 
-own texture, I mistake feeling for touching. 
-A dip above the jaw reminds me of a greeting
+// own texture, I mistake feeling for touching. 
+// A dip above the jaw reminds me of a greeting
 
-departed into absence; vowels trickle into open
-air, riding the draft of a breath and a half until
+// departed into absence; vowels trickle into open
+// air, riding the draft of a breath and a half until
 
-pavement bites mouth. Goodbye becomes native
-tongue, making loss the easiest part of remembrance 
+// pavement bites mouth. Goodbye becomes native
+// tongue, making loss the easiest part of remembrance 
 
-because when sunset tucks her legs onto the 
-highway, I admit I don’t miss the sound of anything, 
+// because when sunset tucks her legs onto the 
+// highway, I admit I don’t miss the sound of anything, 
 
-I loathe the creases. Endless: remains flaked onto 
-a scalp of tendrils and stalks of childhood, time
+// I loathe the creases. Endless: remains flaked onto 
+// a scalp of tendrils and stalks of childhood, time
 
-for embrace, bracing for the time my hands grasp 
-an absent body. Let me tell you a story of recovery. 
+// for embrace, bracing for the time my hands grasp 
+// an absent body. Let me tell you a story of recovery. 
 
-Mother melted gold into my ears each night,
-our pores would overflow in the morning onto
+// Mother melted gold into my ears each night,
+// our pores would overflow in the morning onto
 
-tile floors. Once noon hit kitchen counter, her hands, 
-blistered red, would collect the aureate into a sigh. 
+// tile floors. Once noon hit kitchen counter, her hands, 
+// blistered red, would collect the aureate into a sigh. 
 
-    `.trim(),
-    genre: "poetry",
-  },
+//     `.trim(),
+//     genre: "poetry",
+//   },
   {
     slug: "omitting",
     title: "omitting",

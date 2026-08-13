@@ -22,11 +22,12 @@ export default function HomeLeft() {
             </div>
             <div id="creative spaces" className="w-full">
                 <h1 className="mb-3">explore my creative <b>spaces</b> here:</h1>
-                <div className="grid grid-cols-2 gap-7 p-0 w-fit m-auto">
+                <div className="grid grid-cols-3 gap-7 p-0 w-fit m-auto">
                     <Link href="/books" className=" m-auto w-[50px] text-center"><Image  width="300" height="300" alt="book" className="hover:shadow-sm rounded-2xl" src="app-1.svg"/>books</Link>
                     <Link href="/writing" className=" m-auto w-[50px] text-center"><Image  width="300" height="300" alt="writing" className="hover:shadow-sm rounded-2xl" src="app-2.svg"/>writing</Link>
                     <Link href="/photos" className=" m-auto w-[50px] text-center"><Image  width="300" height="300" alt="photos" className="hover:shadow-sm rounded-2xl" src="app-3.svg"/>photos</Link>
                     <Link href="/art" className=" m-auto w-[50px] text-center"><Image  width="300" height="300" alt="art" className="hover:shadow-sm rounded-2xl" src="app-4.svg"/>art</Link>
+                    <Link href="/blog" className=" m-auto w-[50px] text-center"><Image  width="300" height="300" alt="blog" className="hover:shadow-sm rounded-2xl" src="app-5.svg"/><b>blog</b></Link>
                 </div>
             </div>
         </div>

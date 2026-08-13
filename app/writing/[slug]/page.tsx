@@ -27,7 +27,7 @@ export default async function BlogPostPage({
     notFound();
   }
 
-  const bg = post.genre === 'poetry' || 'etc' ? "bg-white": "bg-[url('/writing/red-notecard.svg')]";
+  const bg = post.genre === 'poetry' || post.genre === 'etc' ? "bg-white": "bg-[url('/writing/red-notecard.svg')]";
 
   // Split by double newlines to treat stanzas as separate blocks
   const stanzas = post.content.split("\n\n");
