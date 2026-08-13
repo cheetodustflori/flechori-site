@@ -17,7 +17,7 @@ const experiences: Experience[] = [
         id: 1,
         company: "uic innovation center",
         companyLink: "#",
-        position: "front end swe developer",
+        position: "ui design intern",
         date: "may 24",
         photoUrl: ["/experiences/innovation/inov1.jpg","/experiences/innovation/inov2.jpg","/experiences/innovation/inov3.jpg","/experiences/innovation/inov4.jpg","/experiences/innovation/inov5.jpg",],
         tools: "Figma",
@@ -32,7 +32,7 @@ const experiences: Experience[] = [
         date: "may 24 - aug 25",
         photoUrl: [],
         tools: "html, css, jquery, Figma",
-        description: "Developed re-design of website interface in HTML, CSS, JS, and jQuery for a teacher authoring tool, increasing navigation efficiency and usability. Implemented visual summary of teacher comment types and filtering mechanism to sort comment types. Led in-person research at Forest Park Middle School, collecting feedback from 20+ students.",
+        description: "❗Gained a lot of experience working independently in a feedback loop with a mentor and professor. Developed re-design of website interface in HTML, CSS, JS, and jQuery for a teacher authoring tool, increasing navigation efficiency and usability. Implemented visual summary of teacher comment types and filtering mechanism to sort comment types. Led in-person research at Forest Park Middle School, collecting feedback from 20+ students.",
         color: "blue"
     },
     {
@@ -43,7 +43,7 @@ const experiences: Experience[] = [
         date: "jan 25 - may 26",
         photoUrl: ["#"],
         tools: "Assembly, GDB, C",
-        description: "Publish weekly walkthrough videos breaking down assembly, data representation, and memory concepts. Support 200+ students in office hours and facilitate weekly labs for 30 students.",
+        description: "Worked with the best professor ever. Published weekly walkthrough videos breaking down assembly, data representation, and memory concepts (felt like my calling for a while... should I build the next Khan Academy?). Supported 150+ students in office hours and facilitated weekly labs for 30+ students.",
         color: "blue"
     },
     {
@@ -64,8 +64,8 @@ const experiences: Experience[] = [
         position: "software developer intern",
         date: "jun 26 - aug 26",
         photoUrl: ["#"],
-        tools: "...",
-        description: "upcoming!!",
+        tools: "Python, Claude Code, secret trader tools...",
+        description: "Had a blast! Spent 4 weeks in options trading, learned poker, got practice asking questions about things I'm curious about. developed an app for engineers to test their development changes within execution system using Claude Code and Python. Integrated an AI summary of post-run performance with a dashboard of performance metrics. Improved productivity by 100%.",
         color: "blue"
     },
     

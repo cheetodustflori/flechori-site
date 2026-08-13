@@ -21,7 +21,7 @@ export default function HomeRight() {
             </div>
             <div id="votd" className="border h-[140px] w-[200px] p-[7px] rounded-lg">
                 <p>
-                    <span className="underline font-bold">verse of the day:</span><br/>
+                    <span className="underline font-bold">a verse for you:</span><br/>
                     “My grace is sufficient for you, for my 
                     power is made perfect in weakness.”<br/>
                     <span className="font-bold">2 Corinthians 12:9</span>

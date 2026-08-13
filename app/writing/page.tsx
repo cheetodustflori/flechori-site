@@ -12,12 +12,12 @@ export default function BlogPage() {
     <div className="flex flex-col gap-10 m-[15px]">
       <Header>
         <h1 className="text-2xl font-bold italic font-larken ">writing</h1>
-        <ul className="flex flex-row gap-2">
+        {/* <ul className="flex flex-row gap-2">
           <li>a <i>key:</i></li>
           <li className="text-[#E4615A] font-bold">poetry</li>
           <li className="text-[#6C89C4] font-bold">blogs</li>
           <li className="text-[#FFDC8B] font-bold">etc</li>
-        </ul>
+        </ul> */}
       </Header>
 
       <ul className="space-y-6">
