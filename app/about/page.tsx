@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function About() {
     return (
         <div id="#about" className="flex flex-col gap-10 pb-[15px] overflow-clip ">
-            <Footer/>
+            {/* <Footer/> */}
             <div>
                 <div className="text-center font-bold">FLORIANNE CHE... FLORI CHE... <i>FLECHORI..?</i></div>
                 <div className="text-center">COMPUTER SCIENCE @ UNIVERSITY OF IL. CHICAGO</div>
