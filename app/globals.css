@@ -2,6 +2,7 @@
 @import "flowbite-react/plugin/tailwindcss";
 @source "../.flowbite-react/class-list.json";
 @import "flowbite/src/themes/default";
+@plugin "@tailwindcss/typography"; 
 
 :root {
   --background: #ffffff;

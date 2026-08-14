@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
-import matter from 'gray-matter';
+import matter from 'gray-matter'; 
+import ReactMarkdown from 'react-markdown';
 
 // 1. This function runs at build time
 export async function generateStaticParams() {
@@ -33,8 +34,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
       <p className="text-gray-500">{data.date}</p>
       
       {/* Right now, this just outputs raw markdown text */}
-      <div className="mt-6 whitespace-pre-wrap">
-        {content}
+      <div className="mt-6 prose prose-slate whitespace-pre-wrap">
+        <ReactMarkdown>{content}</ReactMarkdown>
       </div>
     </article>
   );

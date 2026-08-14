@@ -164,7 +164,7 @@ export const books: Book[] = [
   {
     id: 23,
     title: "Rebecca",
-    cover: "/books/rebecca.jpg",
+    cover: "/books/rebecca.jpeg",
     rating: "4.5/5",
     review: "A classic look at the American Dream. The prose is beautiful."
   },
