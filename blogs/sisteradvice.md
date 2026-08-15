@@ -6,9 +6,3 @@ date: "Aug 12, 2026"
 # Don't apologize when walking past someone or when you get into a small hallway scuffle. "Excuse me" will suffice. Stay self assured and only apologize when you mean it. 
 ---
 
-
-Context: We're both pretty shy in new environments.
-
-## **1. No unnecessary apologies**
-
-## 2. 
