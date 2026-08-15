@@ -23,21 +23,20 @@ export default function About() {
                 <div className="md:text-right w-full">
                     <p>
                         {/* <pre> */}
-                        to be honest, I chose computer science 
-                        because my dad recommended it to me. cs 
-                        seemed the most stable in terms of job 
-                        security. prior to that, i never had  
-                        any personal interest in computers, games, or the 
-                        workings of technology. 
+                        computer science was not my first love.
+                        i chose the major
+                        because my dad recommended it to me. in high school,
+                        i was passionate about the humanities: reading,
+                        writing, and drawing took up most of my free time.
                         <br/>
                         <br/>
-                        but regardless of my fast-changing-
-                        interests, there is one thing about me 
-                        that’s been true since high school. <b>once I 
+                        pivoting to tech felt like starting from scratch,
+                        but i refused to let a lack of experience hold me back.
+                        <b>once I 
                         set my mind to something, i put in my all.</b>
                         <br/>
                         <br/>
-                        if I was going to be a computer science 
+                        i decided early on that if I was going to be a computer science 
                         student, I wouldn’t leave with any regrets. 
                         from freshman year, I threw myself into as 
                         many extracurriculars as I could to get 
