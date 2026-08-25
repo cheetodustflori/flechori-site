@@ -7,16 +7,18 @@ date: "Aug 24, 2026"
 
 In early May, Elizabeth texted a group of us asking if we wanted to attempt the 18.5 Lakefront Trail walk. 
 
-If anyone knows Elizabeth, they'd quickly realize how out-of-character this was for our little homebody friend. Since we met, her favorite phrase has always been *"I miss my bed."*
+If anyone knows Elizabeth, they'd quickly realize how out-of-character this was for our little homebody friend. Since we've met, her favorite phrase has been *"I miss my bed."*
 
-However, Elizabeth had just returned from a five-month internship in South Carolina. She had very limited opportunities to socialize with people her age. She was a changed person. Now she actually wanted to leave the house LOL. 
+However, Elizabeth just returned from a five-month internship in South Carolina. She had limited opportunities to socialize with people her age. 
+
+She was a changed person. Now she actually wanted to leave the house LOL. 
 
 So leave the house we did.
 
 ![photo](/blog/walkMap.png)
 
 
-We ended up walking around 7 miles. Here's what our schedule looked like:
+We ended up walking around 7 miles -- we weaved between the Lakefront and nearby neighborhoods. Here's what our schedule looked like:
 
 - 9 AM: **147 bus** to Montrose Beach
 

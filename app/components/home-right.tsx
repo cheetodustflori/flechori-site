@@ -11,7 +11,7 @@ export default function HomeRight() {
             <div id="currently-listen" className="flex flex-col gap-2 w-full max-w-[200px] text-center">
                 <p>🎧 currently listening to...</p>
                 {/* <div id="song" className="bg-[#21345F] text-white font-bold text-center p-2 rounded-3xl shadow-2xs">song - some artist</div> */}
-                <SpotifyWidget/>
+                {/* <SpotifyWidget/> */}
             </div>
             <div id="links" className="flex flex-row justify-center align-middle items-center gap-5">
                 <a href="https://github.com/cheetodustflori" target="_blank"><Image width="200" height="300" alt="polaroid" src="/github.png" className=" w-[30px]"/></a>
