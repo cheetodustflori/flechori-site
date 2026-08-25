@@ -2,6 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter'; 
 import ReactMarkdown from 'react-markdown';
+import Header from "../../components/header"
+import Link from 'next/link';
 
 // 1. This function runs at build time
 export async function generateStaticParams() {
@@ -30,11 +32,15 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   
   return (
     <article className="p-8">
-      <h1 className="text-3xl font-bold">{data.title}</h1>
+      <Header>
+                <h1 className="text-2xl font-bold">{data.title}</h1>
+                <Link href="/blog" className="font-larken hover:underline">back to blogs</Link>
+          </Header>
+      
       <p className="text-gray-500">{data.date}</p>
       
       {/* Right now, this just outputs raw markdown text */}
-      <div className="mt-6 prose prose-slate whitespace-pre-wrap">
+      <div className="mt-6 prose prose-stone  prose-headings:bold whitespace-normal">
         <ReactMarkdown>{content}</ReactMarkdown>
       </div>
     </article>
