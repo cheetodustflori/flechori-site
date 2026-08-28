@@ -49,13 +49,35 @@ Even more importantly, I want to share this love just as fervently with those ar
 
 The Bible has a lot to say about how we should treat those around us. 
 
+To our brothers and sisters:
+**"As for you, brothers, do not grow weary in doing good. If anyone does not obey what we say in this letter, take note of that person, and have nothing to do with him, that he may be ashamed. Do not regard him as an enemy, but warn him as a brother." 2 Thessalonians 3:13-15**
+
+To strangers:
+**"Let brotherly love continue. Do not neglect to show hospitality to strangers, for thereby some have entertained angels unawares." Hebrews 13:1-2**
+
 To our enemies:
 **“If you love those who love you, what benefit is that to you? For even sinners love those who love them. And if you do good to those who do good to you, what benefit is that to you? For even sinners do the same. And if you lend to those from whom you expect to receive, what credit is that to you? Even sinners lend to sinners, to get back the same amount. But love your enemies, and do good, and lend, expecting nothing in return, and your reward will be great, and you will be sons of the Most High, for he is kind to the ungrateful and the evil. Be merciful, even as your Father is merciful." Luke 6:32-36**
 
-To those around us: 
+To everyone:
 **"Do not neglect to do good and to share what you have, for such sacrifices are pleasing to God." Hebrews 13:16**
 
-# [ 🚧 under construction ]
+**"Honor everyone. Love the brotherhood. Fear God. Honor the emperor." 1 Peter 2:17**
+
+**"As each has received a gift, use it to serve one another, as good stewards of God’s varied grace: whoever speaks, as one who speaks oracles of God; whoever serves, as one who serves by the strength that God supplies—in order that in everything God may be glorified through Jesus Christ. To him belong glory and dominion forever and ever. Amen." 1 Peter 4:10-11**
+
+And many, many more that I'm definitely missing, but the point is made clear: we love because God has commanded us to. If we grounded our love on familiarity, closeness, one's degree of merit or righteousness, we'd quickly become very unloving creatures. We'd only share love to the ones we deem deserving of it and, as a Christian, we know how skewed our judgment can be. The only proper judge of the human heart is God -- and God judged us guilty! 
+
+Until, of course, the blood of Christ was poured out so this could be made true:
+
+**“For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life." John 3:16**
+
+What a relief that I can trust in God, the perfect example of love, to tell me exactly how to share His glory with others! 
+
+**"Love is patient and kind; love does not envy or boast; it is not arrogant or rude. It does not insist on its own way; it is not irritable or resentful; it does not rejoice at wrongdoing, but rejoices with the truth. Love bears all things, believes all things, hopes all things, endures all things." 1 Corinthians 13:4**
+
+I'm still learning everyday how to live out these truths -- the Holy Spirit definitely has the hard task of pulling out all my nasty habits and prejudices. 
+
+But I'm grateful for the ways God continues to teach me through every big and small lesson.
 
 ## Prayers for Taiwan
 **"If any of you lacks wisdom, let him ask God, who gives generously to all without reproach, and it will be given him."
@@ -65,8 +87,7 @@ Please pray that I would be a better steward of the word, open to sharing and th
 
 Please pray that I would be encouraged to share God's love with the students, teachers, and friends I meet. Pray for the hearts of our unbelievers to be softened to receive the word of God. Pray that I would be reminded of my friends' and family's enduring love and pour that same compassion onto those around me. 
 
-
-# [ 🚧 under construction ]
+8/28 update: also lowkey pray that I can *stay here???? um update in another blog*
 
 ## 📸 Flicks
 ![photo](/blog/groupposter.jpg)
