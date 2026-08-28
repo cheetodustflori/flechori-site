@@ -3,12 +3,16 @@ title: "🍰 My Last Sunday at Bethel"
 date: "Aug 24, 2026"
 ---
 
+Saturday, August 22nd
+
+8:00 PM: I text Jina asking how she's getting to church the next day 
+8:05 PM: Jina responds, "Walking"
+
 This past Sunday, Jina, Ellen, and Kou left for church without me. Normally, James drives all of the college students in his van, but Jina drove her car separately and abandoned Kay and me without a word >:(
 
 **To say I was upset was an understatement** 😡
 
 I called Kou while I was in the van and tried to grill her, but they pretended I was cutting out 😭 What treachery!
-
 
 But then at church.... I realized they wanted to surprise me with a Jellycat cake.... 🍰 AWWWWWW.teehee oopsie. Kay pulled out a poster (that looked like a funeral poster) and had everyone at church sign it for me. It was one of the most heartwarming surprises. 
 
@@ -51,13 +55,15 @@ To our enemies:
 To those around us: 
 **"Do not neglect to do good and to share what you have, for such sacrifices are pleasing to God." Hebrews 13:16**
 
+# [ 🚧 under construction ]
+
 ## Prayers for Taiwan
 **"If any of you lacks wisdom, let him ask God, who gives generously to all without reproach, and it will be given him."
 James 1:5**
 
 Please pray that I would be a better steward of the word, open to sharing and the discomfort of a new world. 
 
-Please pray that I would 
+Please pray that I would be encouraged to share God's love with the students, teachers, and friends I meet. Pray for the hearts of our unbelievers to be softened to receive the word of God. Pray that I would be reminded of my friends' and family's enduring love and pour that same compassion onto those around me. 
 
 
 # [ 🚧 under construction ]
