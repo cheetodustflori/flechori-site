@@ -35,7 +35,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
       <p className="text-gray-500">{data.date}</p>
       
       {/* Right now, this just outputs raw markdown text */}
-      <div className="mt-6 prose prose-stone  prose-headings:bold whitespace-normal">
+      <div className="mt-6 prose prose-stone dark:prose-invert prose-headings:bold whitespace-normal">
         <ReactMarkdown
           components={{
             p: ({ node, ...props }) => (

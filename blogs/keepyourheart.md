@@ -1,6 +1,6 @@
 ---
 title: "Keep Your Heart: I Didn't Get What I Prayed For"
-date: "Aug 28, 2026"
+date: "Aug 29, 2026"
 tags: "reflections, advice"
 ---
 
