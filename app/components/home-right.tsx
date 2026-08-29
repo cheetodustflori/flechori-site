@@ -9,7 +9,7 @@ export default function HomeRight() {
                 <Image width="200" height="300" alt="polaroid" src="/polaroid.png"/>
             </div>
             <div id="currently-listen" className="flex flex-col gap-2 w-full max-w-[200px] text-center">
-                <p>🎧 currently listening to...</p>
+                {/* <p>🎧 currently listening to...</p> */}
                 {/* <div id="song" className="bg-[#21345F] text-white font-bold text-center p-2 rounded-3xl shadow-2xs">song - some artist</div> */}
                 {/* <SpotifyWidget/> */}
             </div>
