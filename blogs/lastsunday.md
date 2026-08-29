@@ -1,6 +1,7 @@
 ---
-title: "🍰 My Last Sunday at Bethel"
+title: "My Last Sunday at Bethel"
 date: "Aug 24, 2026"
+tags: "reflections, faith, friends"
 ---
 
 Saturday, August 22nd
@@ -11,7 +12,7 @@ Saturday, August 22nd
 8:05 PM: Jina responds, "Walking"
 
 
-...
+... /ᐠ｡‸｡ᐟ\
 
 This past Sunday, Jina, Ellen, and Kou left for church without me. Normally, James drives all of the college students in his van, but Jina drove her car separately and abandoned Kay and me without a word >:(
 
@@ -19,11 +20,13 @@ This past Sunday, Jina, Ellen, and Kou left for church without me. Normally, Jam
 
 I called Kou while I was in the van and tried to grill her, but they pretended I was cutting out 😭 What treachery!
 
-But then at church.... I realized they wanted to surprise me with a Jellycat cake.... 🍰 AWWWWWW.teehee oopsie. Kay pulled out a poster (that looked like a funeral poster) and had everyone at church sign it for me. It was one of the most heartwarming surprises. 
+But then at church.... I realized they wanted to surprise me with a Jellycat cake.... 🍰 AWWWWWW. teehee oopsie. Kay pulled out a poster (that looked like a funeral poster) and had everyone at church sign it for me. It was one of the most heartwarming surprises. 
 
-Honestly, this Sunday was so incredibly bittersweet. 
+｡°(°¯᷄◠¯᷅°)°｡ Honestly, this Sunday was so incredibly bittersweet. 
 
-I have been overwhelmed with so much love and compassion... and now I have to leave it all for an country where no one will truly know or care for me like my friends currently do. I wanted to feel more fully grateful, but I suddenly had this nagging sense of doubt. 
+I have been overwhelmed with so much love and compassion... and now I have to leave it for a brand new country. (*"you're so dramatic" - Yingkou Xiong 8/29 after reading this sentence*) 
+
+I wanted to feel more fully grateful, but I suddenly had this nagging sense of doubt. 
 
 *Am I making the right decision to leave?* 
 *I spent so long developing these precious relationships - why am I putting it on pause?* 
@@ -87,6 +90,8 @@ What a relief that I can trust in God, the perfect example of love, to tell me e
 I'm still learning everyday how to live out these truths -- the Holy Spirit definitely has the hard task of pulling out all my nasty habits and prejudices. 
 
 But I'm grateful for the ways God continues to teach me through every big and small lesson.
+
+ฅ≽(•⩊ •マ≼
 
 ## Prayers for Taiwan
 **"If any of you lacks wisdom, let him ask God, who gives generously to all without reproach, and it will be given him."

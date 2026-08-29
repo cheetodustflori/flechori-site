@@ -1,6 +1,7 @@
 ---
-title: "NTU Exchange Pt. 1: A Month Before You Land"
+title: "🇹🇼 NTU Exchange Pt. 1: A Month Before You Land"
 date: "Aug 28, 2026"
+tags: "ntu"
 ---
 
 I need to find a virtual time capsule, stuff this post into it, and then send it flying towards the head of June 1st, 2026 me at supersonic speed. /ᐠ ╥ ˕ ╥マ

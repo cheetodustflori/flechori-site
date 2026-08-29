@@ -3,8 +3,8 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '@/lib/supabase';
 
-const ICONS = ['🦊', '🐸', '🐱', '🐼', '🐰']; 
-const COLORS = ['bg-pink-200', 'bg-blue-200', 'bg-green-200', 'bg-yellow-200', 'bg-purple-200'];
+const ICONS = ['˖🪿˚', '🐱✮', '🐰ᢉ𐭩', 'ʚɞ🐻‍❄️', '𐙚🧸ྀི']; 
+const COLORS = ['#CACC90', '#F4EBBE', '#A9AFD1', '#A1CDF4', '#7C809B'];
 
 type Comment = { 
   id: number; 
@@ -20,8 +20,24 @@ type Comment = {
 
   
 export default function CommentSection({ slug }: { slug: string }) {
-    console.log("The slug is:", slug);
-    console.log("Supabase Key loaded:", !!process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
+   // Inside CommentSection component:
+const [isAdmin, setIsAdmin] = useState(false);
+
+// Optional: Type a secret phrase anywhere on the component to unlock admin mode
+useEffect(() => {
+  let buffer = "";
+  const handleKeyDown = (e: KeyboardEvent) => {
+    buffer += e.key;
+    if (buffer.endsWith("adminmode")) {
+      setIsAdmin(prev => !prev);
+      buffer = "";
+      alert(isAdmin ? "Admin mode locked." : "Admin mode unlocked!");
+    }
+  };
+  window.addEventListener("keydown", handleKeyDown);
+  return () => window.removeEventListener("keydown", handleKeyDown);
+}, [isAdmin]);
+
   const [comments, setComments] = useState<Comment[]>([]);
   const [content, setContent] = useState('');
   const [replyingTo, setReplyingTo] = useState<number | null>(null);
@@ -108,13 +124,14 @@ export default function CommentSection({ slug }: { slug: string }) {
     allComments={comments} 
     onReply={setReplyingTo} 
     onDelete={handleDelete} // ADD THIS
+    isAdmin={isAdmin}
   />
 ))}
         {comments.length === 0 && <p className="text-gray-500">aww this comment section is so quiet... pls make some noise</p>}
       </div>
 
       {/* Guest Form with Avatar Builder */}
-      <form onSubmit={handlePost} className="flex flex-col gap-4 p-6 border rounded-xl">
+      <form onSubmit={handlePost} className="flex flex-col gap-4 p-6 border border-gray rounded-xl">
         
         {replyingTo && (
           <div className="flex justify-between text-sm font-bold bg-yellow-100 p-2 border border-gray mb-2">
@@ -125,7 +142,7 @@ export default function CommentSection({ slug }: { slug: string }) {
 
         {/* The Avatar Builder */}
         <div className="flex flex-wrap md:flex-nowrap gap-6 items-center mb-2">
-          <div className={`w-16 h-16 flex items-center justify-center rounded-full text-3xl border border-gray ${bgColor}`}>
+          <div className={`w-16 h-16 flex items-center justify-center rounded-full text-3xl border border-gray`} style={{ backgroundColor: bgColor }}>
             {icon}
           </div>
           
@@ -144,7 +161,7 @@ export default function CommentSection({ slug }: { slug: string }) {
               </div>
               <div className="w-px bg-gray-300 mx-2" />
               <div className="flex gap-2 items-center">
-                {COLORS.map(c => <button type="button" key={c} onClick={() => setBgColor(c)} className={`w-5 h-5 rounded-full border border-gray ${c}`} />)}
+                {COLORS.map(c => <button type="button" key={c} onClick={() => setBgColor(c)} className={`w-5 h-5 rounded-full border border-gray `} style={{ backgroundColor: c }} />)}
               </div>
             </div>
           </div>
@@ -168,12 +185,12 @@ export default function CommentSection({ slug }: { slug: string }) {
 }
 
 // Nested Node - Reads flat data directly
-function CommentNode({ comment, allComments, onReply, onDelete }: { comment: Comment; allComments: Comment[]; onReply: (id: number) => void ; onDelete: (id: number) => void;}) {
+function CommentNode({ comment, allComments, onReply, onDelete, isAdmin }: { comment: Comment; allComments: Comment[]; onReply: (id: number) => void ; onDelete: (id: number) => void; isAdmin: boolean;}) {
   const replies = allComments.filter(c => c.parent_id === comment.id);
   return (
     <div className="mb-2">
       <div className="p-4 bg-white border border-gray-200 flex gap-4">
-        <div className={`w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-full text-xl border border-black ${comment.bg_color}`}>
+        <div className={`w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-full text-xl border border-gray `} style={{backgroundColor:comment.bg_color}}>
           {comment.icon}
         </div>
         <div className="flex-1">
@@ -182,12 +199,14 @@ function CommentNode({ comment, allComments, onReply, onDelete }: { comment: Com
              <p className="text-xs text-gray-400">{new Date(comment.created_at).toLocaleDateString()}</p>
           </div>
 
-          <button 
-              onClick={() => onDelete(comment.id)} 
-              className="text-xs text-red-500 hover:underline"
-            >
-              delete
-            </button>
+          {isAdmin && (
+              <button 
+                onClick={() => onDelete(comment.id)} 
+                className="text-xs text-red-500 hover:underline font-bold"
+              >
+                delete
+              </button>
+            )}
 
           <p className="whitespace-pre-wrap text-gray-800 mb-2 leading-relaxed">{comment.content}</p>
           <button onClick={() => onReply(comment.id)} className="text-xs font-bold uppercase tracking-wider text-gray-500 hover:text-black">Reply</button>
@@ -202,6 +221,7 @@ function CommentNode({ comment, allComments, onReply, onDelete }: { comment: Com
               allComments={allComments} 
               onReply={onReply} 
               onDelete={onDelete} 
+              isAdmin={isAdmin}
             />
           ))}
         </div>

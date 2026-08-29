@@ -24,6 +24,7 @@ function getBlogPosts() {
       title: data.title || filename.replace('.md', ''),
       date: data.date || 'No Date',
       description: data.description || '',
+      tags: data.tags || '',
       // The slug is just the filename without the .md extension
       slug: filename.replace('.md', ''), 
     };
@@ -37,19 +38,25 @@ function getBlogPosts() {
 export default function BlogIndex() {
   const posts = getBlogPosts();
 
+  // const unfinished = posts.tags.includes("unfinished");
+
   return (
     <div className="p-8">
       <h1 className="text-3xl font-bold mb-6">Blog</h1>
       
       <div className="flex flex-col gap-4">
         {posts.map((post) => (
+          
           <div key={post.slug} className="border p-4 rounded-lg">
+            {post.tags.includes("unfinished") && <p>unfinished.. </p>}
             <Link href={`/blog/${post.slug}`}>
               <h2 className="text-xl font-semibold hover:underline">
                 {post.title}
               </h2>
             </Link>
             <p className="text-sm text-gray-500 mt-1">{post.date}</p>
+            <p><b>tags:</b> {post.tags}</p>
+            {/* {post.tags.contains("unfinished") ? <p><b>tags:</b> {post.tags}</p> : } */}
             {post.description && (
               <p className="mt-2">{post.description}</p>
             )}

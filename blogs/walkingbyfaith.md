@@ -1,6 +1,7 @@
 ---
 title: "Walking by Faith"
 date: "Aug 24, 2026"
+tags: "reflections, faith, friends"
 ---
 
 ![photo](/blog/walk.JPG)
@@ -89,6 +90,7 @@ As Christians, how much thought do we put into the small things and stress over 
 
 **"And we know that for those who love God all things work together for good, for those who are called according to His purpose."   Romans 8:28**
 
+/ᐠ｡‸｡ᐟ\
 
 If things had gone my way in high school, I never would have met my dear friends. I never would have found girls who were polar opposites to me, yet who were also united to me by a far greater power: Christ and His Kingdom. 
 
