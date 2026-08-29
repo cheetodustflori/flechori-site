@@ -1,22 +1,16 @@
+import { notFound } from "next/navigation";
 import fs from 'fs';
+import { getBlogData, getAllBlogSlugs } from "@/lib/blogs";
 import path from 'path';
 import matter from 'gray-matter'; 
 import ReactMarkdown from 'react-markdown';
 import Header from "../../components/header"
 import Link from 'next/link';
+import CommentSection from "@/app/components/CommentSection";
 
 // 1. This function runs at build time
 export async function generateStaticParams() {
-  const folder = path.join(process.cwd(), 'blogs');
-  const files = fs.readdirSync(folder);
-
-  // It must return an array of objects where the keys match your dynamic route parameters.
-  // In this case, we need an array like: [{ slug: 'post-1' }, { slug: 'post-2' }]
-  return files
-    .filter((file) => file.endsWith('.md'))
-    .map((file) => ({
-      slug: file.replace('.md', ''),
-    }));
+  return getAllBlogSlugs();
 }
 
 // 2. Your page component remains mostly the same
@@ -24,13 +18,14 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   // Await the params (Next.js 15 requirement)
   const { slug } = await params; 
 
-  const filePath = path.join(process.cwd(), 'blogs', `${slug}.md`);
-  const fileContent = fs.readFileSync(filePath, 'utf8');
+ const data = getBlogData(slug);
 
-  // Extract frontmatter and body content
-  const { data, content } = matter(fileContent);
+  if (!data) {
+    notFound();
+  }
   
   return (
+    <>
     <article className="p-8">
       <Header>
                 <h1 className="text-2xl font-bold">{data.title}</h1>
@@ -41,8 +36,21 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
       
       {/* Right now, this just outputs raw markdown text */}
       <div className="mt-6 prose prose-stone  prose-headings:bold whitespace-normal">
-        <ReactMarkdown>{content}</ReactMarkdown>
+        <ReactMarkdown
+          components={{
+            p: ({ node, ...props }) => (
+              <p className="whitespace-pre-wrap leading-relaxed mb-4" {...props} />
+            ),
+            img: ({ node, ...props }) => (
+              <img className="max-w-full rounded shadow-sm my-6 mx-auto block" {...props} />
+            ),
+          }}
+        >
+          {data.content}
+        </ReactMarkdown>
       </div>
     </article>
+    <CommentSection slug={slug} />
+    </>
   );
 }

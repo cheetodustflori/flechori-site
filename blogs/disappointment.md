@@ -1,6 +1,6 @@
 ---
-title: "NTU Exchange Pt. 1: A Month Before You Land"
+title: "REJECTION, DESPAIR, and also it's not that deep"
 date: "Aug 28, 2026"
 ---
 
-1. 
+# **[ 🚧 under construction]**

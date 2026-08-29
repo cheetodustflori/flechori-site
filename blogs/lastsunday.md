@@ -6,7 +6,12 @@ date: "Aug 24, 2026"
 Saturday, August 22nd
 
 8:00 PM: I text Jina asking how she's getting to church the next day 
+
+
 8:05 PM: Jina responds, "Walking"
+
+
+...
 
 This past Sunday, Jina, Ellen, and Kou left for church without me. Normally, James drives all of the college students in his van, but Jina drove her car separately and abandoned Kay and me without a word >:(
 
@@ -50,15 +55,19 @@ Even more importantly, I want to share this love just as fervently with those ar
 The Bible has a lot to say about how we should treat those around us. 
 
 To our brothers and sisters:
+
 **"As for you, brothers, do not grow weary in doing good. If anyone does not obey what we say in this letter, take note of that person, and have nothing to do with him, that he may be ashamed. Do not regard him as an enemy, but warn him as a brother." 2 Thessalonians 3:13-15**
 
 To strangers:
+
 **"Let brotherly love continue. Do not neglect to show hospitality to strangers, for thereby some have entertained angels unawares." Hebrews 13:1-2**
 
 To our enemies:
+
 **“If you love those who love you, what benefit is that to you? For even sinners love those who love them. And if you do good to those who do good to you, what benefit is that to you? For even sinners do the same. And if you lend to those from whom you expect to receive, what credit is that to you? Even sinners lend to sinners, to get back the same amount. But love your enemies, and do good, and lend, expecting nothing in return, and your reward will be great, and you will be sons of the Most High, for he is kind to the ungrateful and the evil. Be merciful, even as your Father is merciful." Luke 6:32-36**
 
 To everyone:
+
 **"Do not neglect to do good and to share what you have, for such sacrifices are pleasing to God." Hebrews 13:16**
 
 **"Honor everyone. Love the brotherhood. Fear God. Honor the emperor." 1 Peter 2:17**

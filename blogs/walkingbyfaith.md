@@ -56,7 +56,7 @@ Conversations like these really warmed my heart in an unexpected way, though. I 
 
 ## Pics! 
 Here are some of my favorite captured moments. Huge credits to Erin + Nuria for being my #1 photographers. 
-![photo](/blog/bus.jpg)
+![photo](/blog/bus.JPG)
 Caption: I'll never get tired of this view
 ![photo](/blog/elizflori.jpg)
 Caption: Rose and Jack who? 
