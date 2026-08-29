@@ -78,7 +78,9 @@ This is Noelle :) my church big sister who is always reaching out to me to liste
 
 I told her about my worries for the TA offer prior to the response, and she shared: **A closed door now doesn't mean it's closed forever. If you don't receive the response you expect, that doesn't have to be a permanent rejection.**
 
-Actual bars. I'm also not quoting anyone word-for-word here, just in case you're reading this and thinking, "*I do not remember saying that*." 
+Actual bars. 
+
+I'm also not quoting anyone word-for-word here, just in case you're reading this and thinking, "*I do not remember saying that*." 
 
 What Noelle shared was incredibly valuable to me. I could obey God while also recognizing that timing is a big factor in how things play out in our lives. Just because we don't have an answer now doesn't mean we won't have one forever.
 
@@ -87,7 +89,7 @@ What Noelle shared was incredibly valuable to me. I could obey God while also re
 
 **"Keep your heart with all vigilance, for from it flow the springs of life." - Proverbs 4:23**
 
-I found this verse while scrolling on Facebook reels. There was a man whose family members had passed away suddenly throughout the course of several years from unrelated causes. It was very tragic, but he said he still retained steadfastness to the Lord by guarding his heart.
+I found this verse while scrolling on Facebook reels. There was a man whose family members had passed away suddenly throughout the course of several years from unrelated causes. It was very tragic, yet he said he could still retain steadfastness to the Lord because of this verse: he kept guarding his heart.
 
 It made a lot of sense to me.
 
