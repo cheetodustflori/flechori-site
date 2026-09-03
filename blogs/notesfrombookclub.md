@@ -1,6 +1,6 @@
 ---
 title: "Notes from Book Club"
-date: "Aug 24, 2026"
+date: "Sep 3, 2026"
 tags: "🚧 in progress, reflections, faith"
 ---
 
@@ -17,5 +17,31 @@ This time, I wanted to choose a short book with solid teachings. That's why, by 
 This post is just a dump of important takeaways I got from each chapter and maybe a final reflection at the end if I'm feeling motivated. 
 
 ## The Dump
+
+chapter 1:
+- holy men and women prayed, mourned, wrestled with, "finding was all the sweeter for the long seeking"
+- these days, our teachers do the seeking for us --> everything weighs on acceptance but there's no commitment to christ
+- "fragrant saints"
+- complacency is a deadly foe of all spiritual growht
+
+chapter 2: blessedness of possessing nothing:
+- god prepared a world of useful/pleasant things --> sin made god's gifts a potential source of ruin for soul
+- "my" and "mine": gifts take the place of God
+- enemy we tolerate: self life
+- deeper knoweldge of god: soul poverty and abnegation (blessed are the poor in spirit, theirs is the kingdom of heaven)
+- abraham and isaac --> isaac was abraham's heart
+- "I wanted to correct the perversion that existed in your heart:" gen 22:16-18
+- abraham possessed NOTHING; his real treasures are internal;external
+
+chapter 3: removing hte veil
+- the chief end of man is to glorify God and enjoy him forever
+- life of man on earth: life away from the presence
+= redemption: bring us back to him by his prevenient grace VEIL WAS TORN
+- problem now: ewe're unconcerned w personal experience
+- world perishes for lack of knowledge of god and the church famished for him
+- love for Christ threatened to consume frederick faber
+- heart fit to break with love
+issue: veil in our hearts unjudged, uncurcified, hides face of god from us
+
 
 # **[ 🚧 under construction]**
