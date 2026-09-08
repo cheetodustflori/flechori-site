@@ -3,8 +3,8 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '@/lib/supabase';
 
-const ICONS = ['˖🪿˚', '🐱✮', '🐰ᢉ𐭩', 'ʚɞ🐻‍❄️', '𐙚🧸ྀི']; 
-const COLORS = ['#CACC90', '#F4EBBE', '#A9AFD1', '#A1CDF4', '#7C809B'];
+const ICONS = ['🪿', '🐱', '🐰', '🐻‍❄️', '🧸ྀི']; 
+const COLORS = ['#CACC90', '#F4EBBE', '#A9AFD1', '#A1CDF4', '#7C809B','#F8C8DC'];
 
 type Comment = { 
   id: number; 
