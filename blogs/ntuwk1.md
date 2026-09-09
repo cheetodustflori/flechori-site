@@ -1,7 +1,7 @@
 ---
 title: "Week 1 @ NTU: The 100 LINE Challenge, Meeting Missionaries , and Getting Settled"
 date: "Sep 2, 2026"
-tags: "🚧 in progress, ntu"
+tags: "ntu"
 ---
 
 *Word count: quite a lot*
@@ -117,8 +117,9 @@ And thank you to Nuri, Anna, and Kay for dropping me off :)
 - 3 PM: I got an email from my dorm saying that I could move in early so I just took the 20-minute bus ride to my dorm with my big suitcase so I wouldn't have to carry so much stuff at once
 - 4 PM: Checked into the dorm! I also bought a mattress at the tent outside the dorm 
 - 5 PM: Initially, I was going to take the bus home, but then I got confused by the bus stations and eventually walked through NTU campus to my hotel; I'm so grateful I got lost because this was a very peaceful and beautiful walk after a *long* day
-- 6 PM: Grabbed dinner at a ramen restaurant; the waitress was kind and opened the door as customers walked out
 - ![pic](/blog/taiwan/walk.jpg)
+- 6 PM: Grabbed dinner at a ramen restaurant; the waitress was kind and opened the door as customers walked out
+
 
 ## Day 5 (9/1): Where are you from? aka Move-In Day
 *Tuesday, September 1st*
