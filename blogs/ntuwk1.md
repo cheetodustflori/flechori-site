@@ -6,7 +6,7 @@ tags: "🚧 in progress, ntu"
 
 *Word count: quite a lot*
 
-### Adios, Chicago
+# Adios, Chicago
 
 Back in March 2026, I knew I wanted to study abroad in Hong Kong or Taiwan to get expeerience living in a new country and to potentially improve my 中文程度 (Chinese proficiency). I eventually settled on National Taiwan University in 台北/Taipei, 台灣/Taiwan and after many, many trials (e.g. housing, visa, course requirements), I am grateful to say that I've started my program! 
 
@@ -44,6 +44,7 @@ And thank you to Nuri, Anna, and Kay for dropping me off :)
 *Saturday, August 29th*
 - 2 AM: Woke up
 - 2 - 5 AM: Emailed my study abroad advisor about the health exams to see if any previous UIC exchange students had issues; emailed the school to validate my insurance documents. 
+![pic](/blog/taiwan/5am.jpg)
 - 5 AM: Went to 永和豆浆 for 冰豆浆 and 蛋饼! I was the only one there. The guy asked me if I wanted to sit inside or outside in Chinese and I didn't understand. The soy milk was good but I don't really like traditional Taiwanese breakfast. It seems pretty heavy and oily. 油条is a staple and it's just fried dough sticks. 
 - 中文TIL: 内用 or 外带 means for-here or to-go
 ![pic](/blog/taiwan/yonghe.jpg)
@@ -128,6 +129,7 @@ And thank you to Nuri, Anna, and Kay for dropping me off :)
 - 3:00 PM: campus Tour!
 - On the way to the tour, I walked with a girl named "Ashley" from Virginia that I met during move-in
 - Unfortunately, we got split up for our groups... but also a huge blessing in disguise because I got to meet two good friends: Brynn and Terran
+![pic](/blog/taiwan/tour.jpg)
 - Brynn is from Wisconsin and she spent 8 months in Kaohsiung studying Chinese intensively; she's really cool, smart, and also excited about getting involved in the local culture
 - Terran is from Utah and he feels like my little brother haha. I love his energy. He's half-Taiwanese and also thinking about extending his program to a full-year
 - I like both of them because they both seem like very genuine people; One thing I don't like about being part of new environments is that people tend to quickly get stuck in bubbles of people they're familiar with, but these relationships tend to be shallow or fleeting
@@ -135,21 +137,27 @@ And thank you to Nuri, Anna, and Kay for dropping me off :)
 - 5 PM: At the end of the tour, we talked to our tour guides, Adam and Estella, for a bit. Adam is pretty funny and he talks just like an American (LOL). He invited us to play pickleball with his mom at a local school. 
 - We asked him for advice for exchange students and he highly advised us to get involved with the *local* students and to talk to them... this will come up again later
 - 5:30 PM: Brynn, Terran, and I got vegeterian curry dinner together and then explored the mall!
+![pic](/blog/taiwan/curryy.jpg)
 - Over dinner, we started the **100 Line Challenge**! Whoever gets to 100 Line #s or has the most Line #s by the end of September gets treated to dinner! This will be a special challenge for me because my Chinese is especially bad compared to theirs, haha, but I'm excited. 
 
 ## Day 6 (9/2): New Friends
 *Wednesday, September 2nd*
 - 9 AM - 12 PM: The longest orientation ever lol. It was just a slideshow of videos. 
+![pic](/blog/taiwan/orientation.jpg)
 - 12:30 PM: I got Din Tai Fung with Terran, Brynn, and some new exchange students we met. We were trying to recruit a guy to join our group for Terran and met this guy named Judah from *SOUTH AFRICA* who was already married to a half-Taiwanese woman here. We hope to meet with his family for some tea.  
+![pic](/blog/taiwan/dtf.jpg)
 - 2 - 4 PM: Spent the day exploring gift shops and boba with Brynn and Nene, a Japanese girl from Indonesia who goes to university in Korea... talk about International HA. 
+![pic](/blog/taiwan/shop.jpg)
 - 4:30 PM: Went on a run and I *tried* to go to the lakefront but I ended up on a bridge
 - 6 - 8 PM: Attended the first RUF hangout event at Graham's and Emily's (his wife) house! I met their three kids. I also ended up being the only girl beside for Emily, but it was fun meeting all these interesting people! There was a guy from the UK, someone from Singapore, a guy from the Air Force, a local student studying at NTU, and Michael and Ivan! More on Michael and Ivan later. We had curry dinner, then played a wavelength-type game for most of the night. 
 - 8:30 PM: On the way home, I bought bananas. My first fruit of the trip. 
+![pic](/blog/taiwan/banana.jpg)
 
 ## Day 7 (9/3): A Day
 *Thursday, September 3rd*
 - It was *pouringggggg* today. This was my first taste of September Taipei weather. 
 - 11 AM - 12:15 PM: Worked on this blog at this cafe [insert name here]. The smoothie was delicious!
+![pic](/blog/taiwan/smoothie.jpg)
 - 12:30 PM: Met up with Graham, Emily, and Michael in preparation for the RUF tabling event the following day. I got to hear their testimonies and I'm just so amazed by how God works so perfectly through each person.
 - Michael is studying cello at NTNU and he's been living in Taiwan for a total of 6 years. His Chinese is so incredible and I really hope to stay disciplined in my studies so I can become more comfortable speaking like him! I don't think I'll reach his level, but I admire how multi-talented he is. We're going to memorize 1 Peter 1 6-7 in Chinese so hopefully I can get it within the next few weeks. 
 - 3 PM: This was a major fumble of mine. I showed up to student registration without my documents. Kind of walked home feeling a little devastated but eventually God reminded me that *It's not that deep.* I already had an appointment scheduled with the Office of International Affairs the next day so it worked out!
@@ -157,6 +165,22 @@ And thank you to Nuri, Anna, and Kay for dropping me off :)
 
 ## Day 8 (9/4): RUF Tabling
 *Friday, September 4th*
-- 10:30 AM: 
+- 10:30 AM: Arrived at Graham's and Emily's apartment to bring all the items to NTNU campus for the campus fair! It was also *pouring* outside and we were a little worried about student turnout, but it worked out wonderfully :-)
+- 11 AM - 1 PM: Set-up. I met Kenny and Roger. Elley came out even though she had a concussion! We spent a lot of time greeting students, handing out cards and goodies, aaaand accepting rejection xD
+![pic](/blog/taiwan/grahamemily.jpg)
+- 1 PM - 3 PM: I went back to campus to finish up some of the registration that I didn't complete the day before. Praise the Lord because I got to meet this sweet, Taiwanese lady at the 包子 stand after and we talked for a bit about her life as a tutor here. Also bought some egg tarts for the group. 
+![pic](/blog/taiwan/eggtart.jpg)
+- 3 - 4 PM: Finished tabling and talking to some local and international students! It made me realize how many students were actually very far from home and looking for community. 
+- 4:30 PM: After connecting with the Quakers at the stand next to us and dropping stuff off at Graham's place, Ivan took me to his school where he got his undergraduate degree and we visited the canteen. Then we went to his favorite beef noodle place and we both ordered the same spice level but mine was not as spicy as his...
+- Ivan agreed to be my language partner to help me 練習說中文 and even offered to take me to the NTU Chinese Fellowship so I could get exposure talking to local Taiwanese students! I feel so blessed for all the brothers and sisters God has put in my life to help me get acclimated to this strange world. 
+![pic](/blog/taiwan/noodle.jpg)
+- 5:15 PM: Ivan said my shorts were too short for church lol so I went home to get changed and thennnn we went to the worship night at **Thrive Church.**
+- 5:30 PM - 8 PM: Every Friday night, this bilingual church gathers to worship and pray for specific requests submitted by their church members. I was so touched to see them send prayers for their sister church in Shanghai, which was under investigation by the government, and their pages of prayers from members for non-believing family members, safe travels, and blessings for work. 
+- This was my first time hearing "Yet Not I But Through Christ in Me" and it hit so different as I was standing there and thinking about all the ways God really changed me in these past two decades of life. 
+![pic](/blog/taiwan/thrive.jpg)
+- I met Ale and Serena afterward and they were both working adults in Taipei who I feel I have a lot to learn from! Serena has a testimony channel where she interviews Christians about their walk with Christ; I offered to share mine with her since she was asking for prayers for people to be more willing to share. I hope more people can feel encouraged to speak about God's work in their life. 
+- *Side note about testimonies:* After hearing several pastors speak about testimonies, I realized that "it's not that interesting" is no proper reason to withhold your story of Christ's work through you. I can definitely understand the hesitance because my personal walk with Christ has always been fairly mundane, but I know now that God doesn't need big flashes of lightning and miracles to show His almighhty power. Instead of trusting in ourselves to entertain our audience, shouldn't we trust in God to plant the proper seed in our listeners? 
 
-# **[ 🚧 under construction]**
+# Conclusion
+
+This week was a warm welcome into a foreign country. I felt so much of God's grace in the hospitality from the church members, strangers, and workers I interacted with. Thank you, Lord, for the opportunity to unveil more of humanity through these relationships :) I pray I continue to approach life here with childlike curiosity, seek God with faithfulness, and pour out Christlike compassion!
