@@ -1,0 +1,14 @@
+# Day 1: 
+*Saturday*
+# Day 2:
+*Sunday*
+# Day 3:
+*Monday*
+# Day 4:
+*Tuesday*
+# Day 5:
+*Wednesday*
+# Day 6:
+*Thursday*
+# Day 7:
+*Friday*
