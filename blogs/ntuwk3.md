@@ -3,8 +3,28 @@ title: "Week 3 @ NTU: Sadge"
 date: "Sep 22, 2026"
 tags: "🚧 in progress, ntu"
 ---
+# Day 1:
+*Saturday, September 12th*
 
 ![pic](/blog/taiwan/wk3/50lan.jpg)
+
+# Day 2:
+*Sunday, September 13th*
+
+# Day 3:
+*Monday, September 14th*
+
+# Day 4:
+*Tuesday, September 15th*
+
+# Day 5:
+*Wednesday, September 16th*
+
+# Day 6:
+*Thursday, September 17th*
+
+# Day 7:
+*Friday, September 18th*
 ![pic](/blog/taiwan/wk3/191.jpg)
 ![pic](/blog/taiwan/wk3/audrey.jpg)
 ![pic](/blog/taiwan/wk3/aurelia.jpg)
