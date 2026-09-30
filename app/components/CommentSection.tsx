@@ -3,8 +3,8 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '@/lib/supabase';
 
-const ICONS = ['🪿', '🐱', '🐰', '🐻‍❄️', '🧸ྀི']; 
-const COLORS = ['#CACC90', '#F4EBBE', '#A9AFD1', '#A1CDF4', '#7C809B','#F8C8DC'];
+const ICONS = ['🪿', '🐱', '🦊', '🦦', '🐰', '🐻‍❄️', '🧸','🐶','🐥']; 
+const COLORS = [ '#FDB890', '#F9E1A8', '#D6E5BD','#B7EDF7','#A1CDF4','#C8CEEE','#E8DAF0','#FFF0F1', '#F8C8DC'];
 
 type Comment = { 
   id: number; 
@@ -113,7 +113,7 @@ useEffect(() => {
 
   return (
     <div className="mt-12 font-larken border-t border-black pt-8">
-      <h2 className="text-2xl font-bold italic mb-6">comments</h2>
+      <h2 className="text-2xl font-bold italic mb-6">𐔌՞. .՞𐦯 comments</h2>
 
       {/* Recursive Comment Rendering */}
       <div className="space-y-6 mb-8">
@@ -142,7 +142,7 @@ useEffect(() => {
 
         {/* The Avatar Builder */}
         <div className="flex flex-wrap md:flex-nowrap gap-6 items-center mb-2">
-          <div className={`w-16 h-16 flex items-center justify-center rounded-full text-3xl border border-gray`} style={{ backgroundColor: bgColor }}>
+          <div className={`w-16 h-16 min-w-16 flex items-center justify-center rounded-full text-3xl border border-gray`} style={{ backgroundColor: bgColor }}>
             {icon}
           </div>
           
@@ -155,7 +155,7 @@ useEffect(() => {
               className="border border-gray p-2 bg-white max-w-xs" 
               required 
             />
-            <div className="flex gap-4">
+            <div className="flex flex-col md:flex-row gap-2">
               <div className="flex gap-2 text-xl">
                 {ICONS.map(i => <button type="button" key={i} onClick={() => setIcon(i)} className="hover:scale-110">{i}</button>)}
               </div>
