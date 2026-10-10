@@ -1,31 +1,27 @@
+// 'use client';
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import Link from 'next/link';
+// import { useEffect } from 'react';
 
-// 1. Helper function to read and parse all markdown files
 function getBlogPosts() {
   const folder = path.join(process.cwd(), 'blogs');
   const files = fs.readdirSync(folder);
   
-  // Filter out any non-markdown files (like .DS_Store)
   const markdownFiles = files.filter((file) => file.endsWith('.md'));
 
-  // Parse the frontmatter for each file
   const posts = markdownFiles.map((filename) => {
     const filePath = path.join(folder, filename);
     const fileContents = fs.readFileSync(filePath, 'utf8');
     
-    // matter() extracts the YAML frontmatter at the top of the .md file
     const { data } = matter(fileContents);
     
     return {
-      // Fallback to the filename if the title isn't provided in the frontmatter
       title: data.title || filename.replace('.md', ''),
       date: data.date || 'No Date',
       description: data.description || '',
       tags: data.tags || '',
-      // The slug is just the filename without the .md extension
       slug: filename.replace('.md', ''), 
     };
   });
@@ -43,7 +39,16 @@ export default function BlogIndex() {
   return (
     <div className="p-8">
       <h1 className="text-3xl font-bold mb-6">Blog</h1>
-      
+      <div className="flex gap-2 mb-3">
+        <p>Filter</p>
+        <ul className="flex gap-2">
+          <li>study abroad</li>
+          <li>faith</li>
+          <li>guides/how-to</li>
+          <li>life updates</li>
+          <li>etc</li>
+        </ul>
+      </div>
       <div className="flex flex-col gap-4">
         {posts.map((post) => (
           

@@ -1,5 +1,5 @@
 ---
-title: "Week 1 @ NTU: The 100 LINE Challenge, Meeting Missionaries , and Getting Settled"
+title: "🎒ᝰ.ᐟ Week 1 @ NTU: The 100 LINE Challenge, Meeting Missionaries , and Getting Settled"
 date: "Sep 2, 2026"
 tags: "ntu"
 ---

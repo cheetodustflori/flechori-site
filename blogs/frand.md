@@ -1,7 +1,7 @@
 ---
-title: "frand"
+title: "An Ode to My Friends"
 date: "Sep 10, 2026"
-tags: "frand"
+tags: "feeling sentimental"
 ---
 
 frand appreciation post

@@ -1,5 +1,5 @@
 ---
-title: "Week 2 @ NTU: Decision Paralysis"
+title: "🎒ᝰ.ᐟ Week 2 @ NTU: Decision Paralysis"
 date: "Sep 10, 2026"
 tags: "ntu"
 ---
