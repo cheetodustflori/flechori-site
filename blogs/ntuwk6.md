@@ -1,5 +1,5 @@
 ---
-title: "🎒ᝰ.ᐟ Week 5 @ NTU:"
+title: "🎒ᝰ.ᐟ Week 6 @ NTU:"
 date: "Sep 30, 2026"
 tags: "🚧 in progress, ntu"
 ---
