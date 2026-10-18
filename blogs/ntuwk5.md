@@ -1,7 +1,7 @@
 ---
 title: "🎒ᝰ.ᐟ Week 5 @ NTU:"
 date: "Sep 30, 2026"
-tags: "🚧 in progress, ntu"
+tags: "ntu"
 ---
 
 Saturday, September 26th - Friday, October 2nd

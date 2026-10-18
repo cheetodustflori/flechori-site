@@ -1,7 +1,7 @@
 ---
 title: "🎒ᝰ.ᐟ Week 4 @ NTU:"
 date: "Sep 29, 2026"
-tags: "🚧 in progress, ntu"
+tags: "ntu"
 ---
 
 Saturday, September 19th - Friday, September 25th
