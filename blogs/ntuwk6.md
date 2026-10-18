@@ -1,6 +1,6 @@
 ---
 title: "🎒ᝰ.ᐟ Week 6 @ NTU:"
-date: "Sep 30, 2026"
+date: "Oct 3, 2026"
 tags: "🚧 in progress, ntu"
 ---
 
